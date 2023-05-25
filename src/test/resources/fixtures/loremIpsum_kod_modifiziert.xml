@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2023 Staatsbibliothek zu Berlin - Preußischer Kulturbesitz
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  ~
+  -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="de">
+        <fileDesc>
+            <titleStmt>
+                <title>Kulturobjektdokument von ___settlement___,
+                    ___repository___, ___idno___
+                </title>
+                <respStmt>
+                    <resp>Herausgegeben vom</resp>
+                    <name type="org">Handschriftenportal</name>
+                    <persName role="author">Rudolf Helssig</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elektronische Ausgabe nach TEI P5</edition>
+                <respStmt>
+                    <resp>Automatisch generierte Ausgabe</resp>
+                    <orgName>Handschriftenportal</orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Handschriftenportal</name>
+                    <ptr target="http://www.handschriftenportal.de"/>
+                </publisher>
+                <date when="2022-11-23" type="issued">2022-11-23</date>
+                <distributor>Handschriftenportal</distributor>
+                <availability status="free">
+                    <licence
+                            target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                        <p>Für das Kulturobjektdokument verzichtet das
+                            Handschriftenportal auf alle
+                            Nutzungsrechte.
+                        </p>
+                        <p>Für die Nutzung weiterer Daten wie Digitalisaten
+                            gelten gegebenenfalls andere
+                            Lizenzen. Vgl. die <ref
+                                    target="http://www.handschriftenportal.de">
+                                Copyright
+                                Information
+                            </ref> des Handschriftenportals.
+                        </p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="___UUID___" xml:lang="de" type="hsp:object">
+                    <msIdentifier>
+                        <settlement key="___UUID___">___Ort___</settlement>
+                        <repository key="___UUID___">___Bibliothek___
+                        </repository>
+                        <idno>__Signatur___</idno>
+                        <altIdentifier type="alternative">
+                            <idno>__Signatur___</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <head>
+                        <index indexName="norm_decoration">
+                            <term type="decoration">unknown</term>
+                        </index>
+                        <index indexName="norm_dimensions">
+                            <term type="dimensions">22 x 12,5</term>
+                            <term type="height">22</term>
+                            <term type="width">12,5</term>
+                            <term type="depth">5</term>
+                        </index>
+                        <index indexName="norm_dimensions">
+                            <term type="dimensions">23 x 13,5</term>
+                            <term type="height">23</term>
+                            <term type="width">13,5</term>
+                            <term type="depth">6</term>
+                        </index>
+                        <index indexName="norm_form">
+                            <term type="form">leporello</term>
+                        </index>
+                        <index indexName="norm_format">
+                            <term type="format">quarto</term>
+                            <term type="format_typeOfInformation">deduced</term>
+                        </index>
+                        <index indexName="norm_format">
+                            <term type="format">octavo</term>
+                            <term type="format_typeOfInformation">computed
+                            </term>
+                        </index>
+                        <index indexName="norm_musicNotation">
+                            <term type="musicNotation">yes</term>
+                        </index>
+                        <index indexName="norm_origDate">
+                            <term type="origDate">15. Jh., Ende</term>
+                            <term type="origDate_notBefore">1486</term>
+                            <term type="origDate_notAfter">1500</term>
+                            <term type="origDate_type">datable</term>
+                        </index>
+                        <index indexName="norm_origPlace">
+                            <term type="origPlace">Konstanz, Bodenseeraum</term>
+                            <term type="origPlace_norm" key="4032215-4">Konstanz
+                                ?
+                            </term>
+                            <term type="origPlace_norm" key="4264875-5">
+                                Bodenseeraum ?
+                            </term>
+                        </index>
+                        <index indexName="norm_status">
+                            <term type="status">damaged</term>
+                        </index>
+                        <index indexName="norm_textLang">
+                            <term type="textLang">latein und deutsch</term>
+                            <term type="textLang-ID">la</term>
+                            <term type="textLang-ID">de</term>
+                        </index>
+                        <index indexName="norm_title">
+                            <term type="title">title kod</term>
+                        </index>
+                    </head>
+                    <additional>
+                        <adminInfo>
+                            <availability status="free">
+                                <licence
+                                        target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                                    <p>Für das Kulturobjektdokument verzichtet
+                                        das Handschriftenportal auf
+                                        alle Nutzungsrechte.
+                                    </p>
+                                    <p>Für die Nutzung weiterer Daten wie
+                                        Digitalisaten gelten gegebenenfalls
+                                        andere Lizenzen. Vgl. die <ref
+                                                target="http://www.handschriftenportal.de">
+                                            Copyright Information
+                                        </ref> des Handschriftenportals.
+                                    </p>
+                                </licence>
+                            </availability>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

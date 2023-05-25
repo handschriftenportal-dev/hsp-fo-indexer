@@ -1,0 +1,1152 @@
+[
+  {
+    "name": "accompanying-material-search",
+    "type": "text",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "accompanying-material-search-exact",
+    "type": "textExact",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "accompanying-material-search-stemmed",
+    "type": "textStemmed",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "binding-orig-place-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "binding-orig-place-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "binding-orig-place-search-stemmed",
+    "type": "textStemmed",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "binding-search",
+    "type": "text",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "binding-search-exact",
+    "type": "textExact",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "binding-search-stemmed",
+    "type": "textStemmed",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "booklet-search",
+    "type": "text",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "booklet-search-exact",
+    "type": "textExact",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "booklet-search-stemmed",
+    "type": "textStemmed",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "catalog-id-display",
+    "type": "string",
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "catalog-iiif-manifest-range-url-display",
+    "type": "string",
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "catalog-iiif-manifest-url-display",
+    "type": "string",
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "collection-search",
+    "type": "text",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "collection-search-exact",
+    "type": "textExact",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "collection-search-stemmed",
+    "type": "textStemmed",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "decoration-search",
+    "type": "text",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "decoration-search-exact",
+    "type": "textExact",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "decoration-search-stemmed",
+    "type": "textStemmed",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "depth-facet",
+    "type": "floats",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true,
+    "docValues": true
+  },
+  {
+    "name": "desc-author-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "desc-author-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "desc-author-display",
+    "type": "string",
+    "multiValued": true,
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "desc-publish-date-search",
+    "type": "date",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "desc-publish-date-facet",
+    "type": "date",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "desc-publish-date-display",
+    "type": "date",
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "described-object-facet",
+    "type": "string",
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "digitization-date-display",
+    "type": "date",
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "digitization-place-display",
+    "type": "string",
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "digitization-organization-display",
+    "type": "string",
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "digitized-iiif-object-facet",
+    "type": "string",
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "digitized-object-facet",
+    "type": "string",
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "dimensions-display",
+    "type": "string",
+    "multiValued": true,
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "explicit-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "explicit-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "explicit-search-stemmed",
+    "type": "textStemmed",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "external-uri-display",
+    "type": "string",
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "format-display",
+    "type": "string",
+    "multiValued": true,
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "format-facet",
+    "type": "string",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "format-search",
+    "type": "string",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "format-type-display",
+    "type": "string",
+    "multiValued": true,
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "format-type-facet",
+    "type": "string",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "fragment-search",
+    "type": "text",
+    "multiValued": false,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "fragment-search-exact",
+    "type": "textExact",
+    "multiValued": false,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "fragment-search-stemmed",
+    "type": "textStemmed",
+    "multiValued": false,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "fulltext-search",
+    "type": "text",
+    "multiValued": false,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "fulltext-search-exact",
+    "type": "textExact",
+    "multiValued": false,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "fulltext-search-stemmed",
+    "type": "textStemmed",
+    "multiValued": false,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "group-id-search",
+    "type": "string",
+    "multiValued": false,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "group-id-facet",
+    "type": "string",
+    "multiValued": false,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "group-id-display",
+    "type": "string",
+    "multiValued": false,
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "has-notation-facet",
+    "type": "string",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "has-notation-display",
+    "type": "string",
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "height-facet",
+    "type": "floats",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true,
+    "docValues": true
+  },
+  {
+    "name": "history-search",
+    "type": "text",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "history-search-exact",
+    "type": "textExact",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "history-search-stemmed",
+    "type": "textStemmed",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "id-search",
+    "type": "string",
+    "multiValued": false,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "id-display",
+    "type": "string",
+    "multiValued": false,
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "idno-search",
+    "type": "text",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "idno-search-exact",
+    "type": "textExact",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "idno-alternative-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "idno-alternative-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "idno-display",
+    "type": "string",
+    "multiValued": false,
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "illuminated-facet",
+    "type": "string",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "illuminated-display",
+    "type": "string",
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "incipit-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "incipit-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "incipit-search-stemmed",
+    "type": "textStemmed",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "issuing-date-display",
+    "type": "date",
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "item-iconography-search",
+    "type": "text",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "item-iconography-search-exact",
+    "type": "textExact",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "item-iconography-search-stemmed",
+    "type": "textStemmed",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "item-music-search",
+    "type": "text",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "item-music-search-exact",
+    "type": "textExact",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "item-music-search-stemmed",
+    "type": "textStemmed",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "item-text-search",
+    "type": "text",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "item-text-search-exact",
+    "type": "textExact",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "item-text-search-stemmed",
+    "type": "textStemmed",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "language-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "language-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "language-search-stemmed",
+    "type": "textStemmed",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "language-facet",
+    "type": "string",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "language-display",
+    "type": "string",
+    "multiValued": true,
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "last-modified-display",
+    "type": "date",
+    "multiValued": false,
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "leaves-count-facet",
+    "type": "pints",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true,
+    "docValues": true
+  },
+  {
+    "name": "leaves-count-display",
+    "type": "string",
+    "multiValued": false,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "manifest-uri-display",
+    "type": "string",
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "material-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "material-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "material-search-stemmed",
+    "type": "textStemmed",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "material-facet",
+    "type": "string",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "material-display",
+    "type": "string",
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "ms-identifier-search",
+    "type": "text",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "ms-identifier-search-exact",
+    "type": "textExact",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "ms-identifier-sort",
+    "type": "string_ignore_case",
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "object-type-search",
+    "type": "string",
+    "multiValued": false,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "object-type-facet",
+    "type": "string",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "object-type-display",
+    "type": "string",
+    "multiValued": false,
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "orig-date-lang-display",
+    "type": "string",
+    "multiValued": true,
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "orig-date-when-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "orig-date-when-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "orig-date-when-search-stemmed",
+    "type": "textStemmed",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "orig-date-when-facet",
+    "type": "pints",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true,
+    "docValues": true
+  },
+  {
+    "name": "orig-date-type-facet",
+    "type": "string",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "orig-date-from-search",
+    "type": "pints",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "orig-date-from-facet",
+    "type": "pints",
+    "multiValued": true,
+    "stored": false,
+    "docValues": true,
+    "indexed": true
+  },
+  {
+    "name": "orig-date-from-sort",
+    "type": "int",
+    "multiValued": false,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "orig-date-to-search",
+    "type": "pints",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "orig-date-to-facet",
+    "type": "pints",
+    "multiValued": true,
+    "stored": false,
+    "docValues": true,
+    "indexed": true
+  },
+  {
+    "name": "orig-date-to-sort",
+    "type": "int",
+    "multiValued": false,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "orig-place-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "orig-place-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "orig-place-search-stemmed",
+    "type": "textStemmed",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "orig-place-facet",
+    "type": "string",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "orig-place-display",
+    "type": "string",
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "persistent-url-display",
+    "type": "string",
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "person-author-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "person-author-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "person-bookbinder-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "person-bookbinder-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "person-commissioned-by-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "person-commissioned-by-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "person-illuminator-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "person-illuminator-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "person-mentioned-in-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "person-mentioned-in-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "person-other-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "person-other-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "person-previous-owner-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "person-previous-owner-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "person-conservator-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "person-conservator-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "person-scribe-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "person-scribe-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "person-translator-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "person-translator-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "physical-description-search",
+    "type": "text",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "physical-description-search-exact",
+    "type": "textExact",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "physical-description-search-stemmed",
+    "type": "textStemmed",
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "repository-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "repository-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "repository-search-stemmed",
+    "type": "textStemmed",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "repository-facet",
+    "type": "string",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "repository-display",
+    "type": "string",
+    "multiValued": false,
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "settlement-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "settlement-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "settlement-search-stemmed",
+    "type": "textStemmed",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "settlement-facet",
+    "type": "string",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "settlement-display",
+    "type": "string",
+    "multiValued": false,
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "spelling",
+    "type": "text_spelling",
+    "multiValued": true,
+    "stored": false,
+    "indexed": "true"
+  },
+  {
+    "name": "status-search",
+    "type": "string",
+    "multiValued": false,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "status-facet",
+    "type": "string",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "status-display",
+    "type": "string",
+    "multiValued": false,
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "subtype-display",
+    "type": "string",
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "tei-document-display",
+    "type": "text_general",
+    "multiValued": false,
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "thumbnail-uri-display",
+    "type": "string",
+    "multiValued": false,
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "title-search",
+    "type": "text",
+    "multiValued": false,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "title-search-exact",
+    "type": "textExact",
+    "multiValued": false,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "title-search-stemmed",
+    "type": "textStemmed",
+    "multiValued": false,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "title-display",
+    "type": "string",
+    "multiValued": false,
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "type-search",
+    "type": "string",
+    "multiValued": false,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "type-facet",
+    "type": "string",
+    "multiValued": false,
+    "stored": false,
+    "indexed": true
+  },
+  {
+    "name": "type-display",
+    "type": "string",
+    "multiValued": false,
+    "stored": true,
+    "indexed": false
+  },
+  {
+    "name": "version-schema",
+    "type": "string",
+    "multiValued": false,
+    "stored": true,
+    "indexed": false,
+    "docValues": false
+  },
+  {
+    "name": "width-facet",
+    "type": "floats",
+    "multiValued": true,
+    "stored": false,
+    "indexed": true,
+    "docValues": true
+  },
+  {
+    "name": "work-title-search",
+    "type": "text",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "work-title-search-exact",
+    "type": "textExact",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  },
+  {
+    "name": "work-title-search-stemmed",
+    "type": "textStemmed",
+    "multiValued": true,
+    "stored": true,
+    "indexed": true
+  }
+]

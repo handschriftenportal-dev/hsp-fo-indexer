@@ -1,0 +1,298 @@
+[
+  {
+    "source": "accompanying-material-search",
+    "dest": "accompanying-material-search-exact"
+  },
+  {
+    "source": "accompanying-material-search",
+    "dest": "accompanying-material-search-stemmed"
+  },
+  {
+    "source": "binding-orig-place-search",
+    "dest": "binding-orig-place-search-exact"
+  },
+  {
+    "source": "binding-orig-place-search",
+    "dest": "binding-orig-place-search-stemmed"
+  },
+  {
+    "source": "binding-search",
+    "dest": "binding-search-exact"
+  },
+  {
+    "source": "binding-search",
+    "dest": "binding-search-stemmed"
+  },
+  {
+    "source": "booklet-search",
+    "dest": "booklet-search-exact"
+  },
+  {
+    "source": "booklet-search",
+    "dest": "booklet-search-stemmed"
+  },
+  {
+    "source": "collection-search",
+    "dest": "collection-search-exact"
+  },
+  {
+    "source": "collection-search",
+    "dest": "collection-search-stemmed"
+  },
+  {
+    "source": "decoration-search",
+    "dest": "decoration-search-exact"
+  },
+  {
+    "source": "decoration-search",
+    "dest": "decoration-search-stemmed"
+  },
+  {
+    "source": "desc-author-search",
+    "dest": "desc-author-display"
+  },
+  {
+    "source": "desc-author-search",
+    "dest": "desc-author-search-exact"
+  },
+  {
+    "source": "desc-publish-date-search",
+    "dest": "desc-publish-date-display"
+  },
+  {
+    "source": "explicit-search",
+    "dest": "explicit-search-exact"
+  },
+  {
+    "source": "explicit-search",
+    "dest": "explicit-search-stemmed"
+  },
+  {
+    "source": "format-search",
+    "dest": "format-display"
+  },
+  {
+    "source": "fragment-search",
+    "dest": "fragment-search-exact"
+  },
+  {
+    "source": "fragment-search",
+    "dest": "fragment-search-stemmed"
+  },
+  {
+    "source": "fulltext-search",
+    "dest": "fulltext-search-exact"
+  },
+  {
+    "source": "fulltext-search",
+    "dest": "fulltext-search-stemmed"
+  },
+  {
+    "source": "group-id-search",
+    "dest": "group-id-display"
+  },
+  {
+    "source": "id",
+    "dest": "id-search"
+  },
+  {
+    "source": "id",
+    "dest": "id-display"
+  },
+  {
+    "source": "idno-search",
+    "dest": "idno-display"
+  },
+  {
+    "source": "history-search",
+    "dest": "history-search-exact"
+  },
+  {
+    "source": "history-search",
+    "dest": "history-search-stemmed"
+  },
+  {
+    "source": "idno-search",
+    "dest": "idno-search-exact"
+  },
+  {
+    "source": "idno-alternative-search",
+    "dest": "idno-alternative-search-exact"
+  },
+  {
+    "source": "incipit-search",
+    "dest": "incipit-search-exact"
+  },
+  {
+    "source": "incipit-search",
+    "dest": "incipit-search-stemmed"
+  },
+  {
+    "source": "item-iconography-search",
+    "dest": "item-iconography-search-exact"
+  },
+  {
+    "source": "item-iconography-search",
+    "dest": "item-iconography-search-stemmed"
+  },
+  {
+    "source": "item-music-search",
+    "dest": "item-music-search-exact"
+  },
+  {
+    "source": "item-music-search",
+    "dest": "item-music-search-stemmed"
+  },
+  {
+    "source": "item-text-search",
+    "dest": "item-text-search-exact"
+  },
+  {
+    "source": "item-text-search",
+    "dest": "item-text-search-stemmed"
+  },
+  {
+    "source": "language-search",
+    "dest": "language-search-exact"
+  },
+  {
+    "source": "language-search",
+    "dest": "language-search-stemmed"
+  },
+  {
+    "source": "material-search",
+    "dest": "material-search-exact"
+  },
+  {
+    "source": "material-search",
+    "dest": "material-search-stemmed"
+  },
+  {
+    "source": "ms-identifier-search",
+    "dest": "ms-identifier-search-exact"
+  },
+  {
+    "source": "object-type-search",
+    "dest": "object-type-display"
+  },
+  {
+    "source": "orig-date-when-search",
+    "dest": "orig-date-when-search-exact"
+  },
+  {
+    "source": "orig-date-when-search",
+    "dest": "orig-date-when-search-stemmed"
+  },
+  {
+    "source": "orig-date-when-search",
+    "dest": "orig-date-lang-display"
+  },
+  {
+    "source": "orig-place-search",
+    "dest": "orig-place-search-exact"
+  },
+  {
+    "source": "orig-place-search",
+    "dest": "orig-place-search-stemmed"
+  },
+  {
+    "source": "person-author-search",
+    "dest": "person-author-search-exact"
+  },
+  {
+    "source": "person-bookbinder-search",
+    "dest": "person-bookbinder-search-exact"
+  },
+  {
+    "source": "person-commissioned-by-search",
+    "dest": "person-commissioned-by-search-exact"
+  },
+  {
+    "source": "person-illuminator-search",
+    "dest": "person-illuminator-search-exact"
+  },
+  {
+    "source": "person-mentioned-in-search",
+    "dest": "person-mentioned-in-search-exact"
+  },
+  {
+    "source": "person-other-search",
+    "dest": "person-other-search-exact"
+  },
+  {
+    "source": "person-previous-owner-search",
+    "dest": "person-previous-owner-search-exact"
+  },
+  {
+    "source": "person-conservator-search",
+    "dest": "person-conservator-search-exact"
+  },
+  {
+    "source": "person-scribe-search",
+    "dest": "person-scribe-search-exact"
+  },
+  {
+    "source": "person-translator-search",
+    "dest": "person-translator-search-exact"
+  },
+  {
+    "source": "physical-description-search",
+    "dest": "physical-description-search-exact"
+  },
+  {
+    "source": "physical-description-search",
+    "dest": "physical-description-search-stemmed"
+  },
+  {
+    "source": "repository-search",
+    "dest": "repository-search-exact"
+  },
+  {
+    "source": "repository-search",
+    "dest": "repository-search-stemmed"
+  },
+  {
+    "source": "settlement-search",
+    "dest": "settlement-search-exact"
+  },
+  {
+    "source": "settlement-search",
+    "dest": "settlement-search-stemmed"
+  },
+  {
+    "source": "status-search",
+    "dest": "status-display"
+  },
+  {
+    "source": "title-search",
+    "dest": "title-search-exact"
+  },
+  {
+    "source": "title-search",
+    "dest": "title-search-stemmed"
+  },
+  {
+    "source": "title-search",
+    "dest": "title-display"
+  },
+  {
+    "source": "type-search",
+    "dest": "type-facet"
+  },
+  {
+    "source": "type-search",
+    "dest": "type-display"
+  },
+  {
+    "source": "work-title-search",
+    "dest": "work-title-search-exact"
+  },
+  {
+    "source": "work-title-search",
+    "dest": "work-title-search-stemmed"
+  },
+  {
+    "source": "*-search",
+    "dest": "spelling"
+  }
+]

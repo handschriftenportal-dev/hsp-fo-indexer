@@ -1,0 +1,20 @@
+eureka:
+  client:
+    enabled: true
+    region: potsdamerplatz
+    availabilityZones:
+      potsdamerplatz: one
+    registerWithEureka: true
+    fetchRegistry: true
+    preferSameZoneEureka: true
+    serviceUrl:
+      one: http://localhost:8761/serviceregistry/eureka/
+    healthcheck:
+      enabled: false
+
+kafka:
+  groupid: hsp-fo-indexer-dev
+  resetOffset: false
+
+logging:
+  config: classpath:logback-dev.xml

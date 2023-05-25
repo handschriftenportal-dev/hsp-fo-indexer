@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2023 Staatsbibliothek zu Berlin - Preußischer Kulturbesitz
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  ~
+  -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>Kulturobjektdokument von ___settlement___, ___repository___, ___idno___</title>
+            <respStmt>
+                <resp>Herausgegeben vom</resp>
+                <name type="org">Handschriftenportal</name>
+                <persName role="author">Rudolf Helssig</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Elektronische Ausgabe nach TEI P5</edition>
+            <respStmt>
+               <resp>Automatisch generierte Ausgabe</resp>
+               <orgName>Handschriftenportal</orgName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de"/>
+            </publisher>
+             <date when="2022-11-23" type="issued">2022-11-23</date>
+            <distributor>Handschriftenportal</distributor>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle
+                     Nutzungsrechte. </p>
+                  <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere
+                     Lizenzen. Vgl. die <ref target="http://www.handschriftenportal.de">Copyright
+                        Information </ref> des Handschriftenportals. </p>
+               </licence>
+            </availability>
+             <pubPlace>
+                 <ptr xml:id="__UUID__" target="https://resolver.staatsbibliothek-berlin.de/__UUID__" subtype="hsp" type="purl"/>
+             </pubPlace>
+         </publicationStmt>
+          <sourceDesc>
+              <msDesc xml:id="__UUID__" xml:lang="de" type="hsp:object">
+                  <msIdentifier>
+                      <settlement key="NORM-1a75b353-14be-3c19-b22c-5c5334d78c8f">Kiel</settlement>
+                      <repository key="NORM-9caa05ee-be18-3003-bfa9-454aa6349a9f">Universitätsbibliothek</repository>
+                      <idno sortKey="02f-0001-0005-0001">Cod. ms. Bord. 1</idno>
+                      <altIdentifier type="hsp-ID">
+                          <collection>Handschriftenportal Kulturobjektdokument-ID</collection>
+                          <idno>HSP-3d18a39c-1429-341e-b397-ca2bb8f9cdfb</idno>
+                      </altIdentifier>
+                      <altIdentifier type="mxml-ID">
+                          <collection>Manuscripta-Medievalia-ID</collection>
+                          <idno>obj_123456</idno>
+                      </altIdentifier>
+                      <altIdentifier type="corpus">
+                          <collection>eine Sammlung mit Identifier</collection>
+                          <idno>dolor sit amet</idno>
+                      </altIdentifier>
+                      <altIdentifier type="corpus">
+                          <collection>eine weitere Sammlung ohne Identifier</collection>
+                          <idno></idno>
+                      </altIdentifier>
+                      <altIdentifier type="former">
+                          <settlement></settlement>
+                          <repository></repository>
+                          <idno>St. Emm 57</idno>
+                      </altIdentifier>
+                      <altIdentifier type="former">
+                          <settlement></settlement>
+                          <repository key="NORM-654a4abc-3191-3e68-995b-4fdbd157cf9d">Sankt Emmeran
+                          </repository>
+                          <idno>St. Emm 57</idno>
+                      </altIdentifier>
+                      <altIdentifier type="former">
+                          <settlement key="NORM-26cf9267-82fe-3bf1-a37-c9960658499f">Regensburg
+                          </settlement>
+                          <repository key="NORM-654a4abc-3191-3e68-995b-4fdbd157cf9d">Sankt Emmeran
+                          </repository>
+                          <idno>St. Emm 57</idno>
+                      </altIdentifier>
+                  </msIdentifier>
+                  <head>
+                      <index indexName="norm_decoration" copyOf="#__UUID__" source="https://resolver.staatsbibliothek-berlin.de/__UUID__">
+                          <term type="decoration">yes</term>
+                      </index>
+                      <index indexName="norm_material">
+                          <term type="material">Mischung aus Papier und Leinen</term>
+                          <term type="material_type">linen</term>
+                          <term type="material_type">paper</term>
+                      </index>
+                      <index indexName="norm_dimensions" copyOf="#__UUID__" source="https://resolver.staatsbibliothek-berlin.de/__UUID__">
+                          <term type="dimensions">16 × 12 (Teil I)</term>
+                          <term type="height">16</term>
+                          <term type="width">12</term>
+                          <term type="depth">2</term>
+                          <term type="dimensions_typeOfInformation">factual</term>
+                      </index>
+                      <index indexName="norm_dimensions"  copyOf="#__UUID__" source="https://resolver.staatsbibliothek-berlin.de/__UUID__">
+                          <term type="dimensions">12,5 × 15,5 (Teil II)</term>
+                          <term type="height">12,5</term>
+                          <term type="width">15,5</term>
+                          <term type="depth"></term>
+                          <term type="dimensions_typeOfInformation">deduced</term>
+                      </index>
+                      <index indexName="norm_format" copyOf="#__UUID__" source="https://resolver.staatsbibliothek-berlin.de/__UUID__">
+                          <term type="format">folio</term>
+                          <term type="format_typeOfInformation">factual</term>
+                      </index>
+                      <index indexName="norm_format" copyOf="#__UUID__" source="https://resolver.staatsbibliothek-berlin.de/__UUID__">
+                          <term type="format">oblong</term>
+                          <term type="format_typeOfInformation">deduced</term>
+                      </index>
+                      <index indexName="norm_musicNotation" copyOf="#__UUID__" source="https://resolver.staatsbibliothek-berlin.de/__UUID__">
+                          <term type="musicNotation">no</term>
+                      </index>
+                      <index indexName="norm_measure" copyOf="#__UUID__" source="https://resolver.staatsbibliothek-berlin.de/__UUID__">
+                          <term type="measure">103 Bl., aus zwei Teilen zusammengesetzt</term>
+                          <term type="measure_noOfLeaves">103</term>
+                      </index>
+                      <index indexName="norm_origPlace">
+                          <term type="origPlace">Staatsbibliothek zu Berlin, Berlin</term>
+                          <term type="origPlace_norm" ref="http://d-nb.info/gnd/5036103-X">Staatsbibliothek zu Berlin</term>
+                          <term type="origPlace_norm" ref="http://d-nb.info/gnd/4005728-8" key="NORM-ee1611b6-1f56-38e7-8c12-b40684dbb395">Berlin</term>
+                      </index>
+                      <index indexName="norm_origDate" copyOf="#__UUID__" source="https://resolver.staatsbibliothek-berlin.de/__UUID__">
+                          <term type="origDate">1488</term>
+                          <term type="origDate_notBefore">1488-01-01</term>
+                          <term type="origDate_notAfter">1488-12</term>
+                          <term type="origDate_type">dated</term>
+                      </index>
+                      <index indexName="norm_origDate" copyOf="#__UUID__" source="https://resolver.staatsbibliothek-berlin.de/__UUID__">
+                          <term type="origDate">um 1665 (Teil II)</term>
+                          <term type="origDate_notBefore">1651</term>
+                          <term type="origDate_notAfter">1680</term>
+                          <term type="origDate_type">datable</term>
+                      </index>
+                      <index indexName="norm_origDate" copyOf="#__UUID__" source="https://resolver.staatsbibliothek-berlin.de/__UUID__">
+                          <term type="origDate">um 0 (Teil III)</term>
+                          <term type="origDate_notBefore">-0014</term>
+                          <term type="origDate_notAfter">0015</term>
+                          <term type="origDate_type">datable</term>
+                      </index>
+                      <index indexName="norm_status" copyOf="#__UUID__" source="https://resolver.staatsbibliothek-berlin.de/__UUID__">
+                          <term type="status">existent</term>
+                      </index>
+                      <index indexName="norm_textLang" copyOf="#__UUID__" source="https://resolver.staatsbibliothek-berlin.de/__UUID__">
+                          <term type="textLang">latein und deutsch</term>
+                          <term type="textLang-ID">la</term>
+                          <term type="textLang-ID">de</term>
+                      </index>
+                      <index indexName="norm_form" copyOf="#__UUID__" source="https://resolver.staatsbibliothek-berlin.de/__UUID__">
+                          <term type="form">codex</term>
+                      </index>
+                      <!-- im Editor: Titel (was im HSP angezeigt wird) -->
+                      <index indexName="norm_title" copyOf="#__UUID__" source="https://resolver.staatsbibliothek-berlin.de/__UUID__">
+                          <term type="title">Catalogi bibliothecae Bordesholmensis, Bordesholmer Handschriften</term>
+                      </index>
+                  </head>
+                  <additional>
+                      <adminInfo>
+                          <availability status="free">
+                              <licence
+                                      target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                                  <p>Für das Kulturobjektdokument verzichtet das
+                                      Handschriftenportal auf
+                                      alle Nutzungsrechte.
+                                  </p>
+                                  <p>Für die Nutzung weiterer Daten wie
+                                      Digitalisaten gelten gegebenenfalls
+                                      andere Lizenzen. Vgl. die <ref
+                                              target="http://www.handschriftenportal.de">
+                                          Copyright Information
+                                      </ref> des Handschriftenportals.
+                                  </p>
+                              </licence>
+                          </availability>
+                      </adminInfo>
+                      <surrogates>
+                          <bibl>
+                              <idno>d2dee089-2f5d-4247-b2fb-ae5963ad5480</idno>
+                              <ref target="https://iiif.ub.uni-leipzig.de/0000029238/manifest.json" subtype="komplettVomOriginal" type="manifest" />
+                              <ref target="http://thumbnail.uri" type="thumbnail"/>
+                              <date when="2020-10-06" type="digitalized">01.10.2020</date>
+                              <date when="2020-10-23" type="issued">23.10.2020</date>
+                              <placeName ref="4a887b8a-68ac-39b0-8d9d-027bddedb06b">Leipzig</placeName>
+                              <orgName ref="016bc785-54a5-3c23-a276-7162a959306e">Universitätsbibliothek Leipzig</orgName>
+                          </bibl>
+                      </surrogates>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

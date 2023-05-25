@@ -1,0 +1,11 @@
+[
+{
+    "request": {
+        "method": "post",
+        "uri": "/rest/indexkods"
+    },
+    "response": {
+        "status": 201
+    }
+}
+]

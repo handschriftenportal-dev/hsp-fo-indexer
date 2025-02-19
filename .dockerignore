@@ -1,0 +1,6 @@
+## ignore files ##
+**
+!/pom.xml
+!/mvnsettings.xml
+!/src/main/java/*
+!/src/main/resources/*

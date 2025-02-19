@@ -1,0 +1,72 @@
+<?xml version="1.0" standalone="yes"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xmlns:dcr="http://www.isocat.org/ns/dcr"
+   xmlns:egXML="http://www.tei-c.org/ns/Examples"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titel des Katalogs</title>
+            <respStmt>
+               <resp>Beschrieben durch</resp>
+               <persName role="author" ref="132678209">Thomas Falmagne</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Unter Mitwirkung von</resp>
+               <persName ref="113154011">Luc Deitz</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Neu beschrieben</edition>
+            <respStmt>
+               <resp>Herausgegeben von</resp>
+               <persName role="editor" ref="https://d-nb.info/gnd/1026872634">Armin Dietzel</persName>
+               <persName role="editor">Günther Bauer</persName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher ref="2021225-2">Harrassowitz</publisher>
+            <pubPlace>Wiesbaden</pubPlace>
+            <date>2017</date>
+            <idno type="hsk">833</idno>
+            <availability>
+               <licence target="https://rightsstatements.org/page/InC/1.0/">
+                  <p>In copyright.</p>
+               </licence>
+            </availability>
+            <ptr target="https://iiif.ub.uni-leipzig.de/0000035441/manifest.json" type="hsp"/>
+            <ptr target="https://iiif.ub.uni-leipzig.de/iiif/j2k/0000/0354/0000035441/00000003.jpx/full/200,/0/default.jpg" type="thumbnail"/>
+            <idno type="hsp">HSP-013a006f-03db-3539-aeff-eb8f18fda755</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Die Handschriften der Bibliothèque Nationale de Luxembourg</title>
+            <biblScope unit="volume">2,1</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:id="OCR_04_Ansbach_SchlossB_Kat_2_tei" type="hsp:catalog" xml:lang="de">
+               <msIdentifier>
+                  <settlement>Aachen</settlement>
+                  <repository>StB</repository>
+                  <idno>Kat_1_Nachtr</idno>
+               </msIdentifier>
+            </msDesc>
+            <p>OCR-Ausgangsdatei: 04_Luxemburg_Kat_2_1_tei.xml</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="TITELEI">
+            <p n="Page1_Block1">
+               <pb n="Page1"/>
+               <lb n="Page1_Block1_Line1"/>DIE HANDSCHRIFTEN
+               <lb n="Page1_Block1_Line2"/>DES GROSSHERZOGTUMS LUXEMBURG
+               <lb n="Page1_Block1_Line3"/>herausgegeben von der
+               <lb n="Page1_Block1_Line4"/>Bibliotheque nationale de Luxembourg
+               <lb n="Page1_Block1_Line5"/>Band 2
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

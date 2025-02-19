@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<enumsConfig>
+  <enum name="format">
+    <value>folio</value>
+    <value>quarto</value>
+    <value>octavo</value>
+    <value>smaller than octavo</value>
+    <value>larger than folio</value>
+    <value>other</value>
+    <value>oblong</value>
+    <value>square</value>
+    <value>long and narrow</value>
+  </enum>
+  <enum name="has-notation">
+    <value>yes</value>
+    <value>no</value>
+  </enum>
+  <enum name="illuminated">
+    <value>yes</value>
+    <value>no</value>
+  </enum>
+  <enum name="object-type">
+    <value>codex</value>
+    <value>collection</value>
+    <value>composite</value>
+    <value>fragment</value>
+    <value>hostVolume</value>
+    <value>leporello</value>
+    <value>printWithManuscriptParts</value>
+    <value>other</value>
+    <value>sammelband</value>
+    <value>scroll</value>
+    <value>singleSheet</value>
+  </enum>
+  <enum name="orig-date-type">
+    <value>datable</value>
+    <value>dated</value>
+  </enum>
+  <enum name="status-type">
+    <value>destroyed</value>
+    <value>dismembered</value>
+    <value>displaced</value>
+    <value>existent</value>
+    <value>missing</value>
+    <value>unknown</value>
+  </enum>
+</enumsConfig>

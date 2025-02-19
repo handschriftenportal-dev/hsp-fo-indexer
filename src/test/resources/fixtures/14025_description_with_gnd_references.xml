@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI version="5.0" xml:lang="de" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <respStmt>
+                    <resp>katalogisiert durch</resp>
+                    <persName key="__UUID__">Katrin Sturm</persName>
+                    <persName key="__UUID__">Konstantin Görlitz</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher key="wrong test id"/>
+                <date when="2020-01-01" type="created"/>
+                <date when="2020-01-01" type="modified"/>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/de/"><p>Dieses
+                        Dokument steht unter einer Creative Commons Namensnennung-Weitergabe
+                        unter gleichen Bedingungen 3.0 Deutschland Lizenz (CC BY-SA).</p>
+                        <p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls
+                            andere Lizenzen.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc xml:id="___ID___" xml:lang="" type="hsp:description" subtype="medieval"
+                    status="intern">
+                <msIdentifier>
+                    <settlement key="NORM-ee1611b6-1f56-38e7-8c12-b40684dbb395">Berlin</settlement>
+                    <repository key="6790851b-9519-3874-a9fd-0839d494a3c9">Staatsbibliothek zu
+                        Berlin</repository>
+                    <collection>consetetur sadipscing elitr</collection>
+                    <idno>dolor sit amet</idno>
+                    <altIdentifier type="catalog">
+                        <collection>dolor</collection>
+                        <idno>amet</idno>
+                    </altIdentifier>
+                    <altIdentifier type="formerShelfMark">
+                        <idno>cum soluta nobis</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head>
+                    <title>Lorem ipsum</title>
+                    <note type="headline"> dolor sit amet </note>
+                    <index indexName="norm">
+                        <term type="title">Lorem ipsum</term>
+                    </index>
+                    <index indexName="norm_material">
+                        <term type="material">Mischung aus Papier und Leinen</term>
+                        <term type="material_type">linen</term>
+                        <term type="material_type">chart</term>
+                    </index>
+                    <index indexName="norm_measure">
+                        <term type="measure">12 Bl.</term>
+                        <term type="measure_noOfLeaves">12</term>
+                    </index>
+                    <index indexName="norm_dimensions">
+                        <term type="dimensions">22 x 12,5</term>
+                        <term type="height">22</term>
+                        <term type="width">12,5</term>
+                        <term type="depth">0</term>
+                        <term type="format">folio</term>
+                    </index>
+                    <index indexName="norm_format">
+                        <term type="format">folio</term>
+                        <term type="format_typeOfInformation">real</term>
+                    </index>
+                    <index indexName="norm_origDate">
+                        <term type="origDate">Anfang 9. Jh.</term>
+                        <term type="origDate_notBefore">0801</term>
+                        <term type="origDate_notAfter">0815</term>
+                        <term type="origDate_type">dated</term>
+                    </index>
+                    <index indexName="norm_origDate">
+                        <term type="origDate">555</term>
+                        <term type="origDate_type">dated</term>
+                    </index>
+                   <index indexName="norm_origPlace">
+                        <term type="origPlace" key="a9862391-674b-4383-9721-a6eb63ae6cb4">Großbritannien, Nordharz</term>
+                        <term type="origPlace_gnd-ID">4022153-2</term>
+                        <term type="origPlace_gnd-ID">4122692-6</term>
+                    </index>
+                    <index indexName="norm_textLang">
+                        <term type="textLang">latein</term>
+                        <term type="textLang-ID">la</term>
+                    </index>
+                    <index indexName="norm_form">
+                        <term type="form">codex</term>
+                    </index>
+                    <index indexName="norm_form">
+                        <term type="form">codex</term>
+                    </index>
+                    <index indexName="norm_status">
+                        <term type="status">damaged</term>
+                    </index>
+                    <index indexName="norm_decoration">
+                        <term type="decoration">yes</term>
+                    </index>
+                    <index indexName="norm_musicNotation">
+                        <term type="musicNotation">no</term>
+                    </index>
+                </head>
+                <msContents>
+                    <msItem>
+                        <note type="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                            nonumy eirmod tempor invidunt ut labore</note>
+                    </msItem>
+                    <msItem>
+                        <decoNote type="content">et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                            takimata sanctus est Lorem ipsum dolor sit amet in <placeName
+                                    key="berlin" ref="http://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                            oder auch in <placeName key="berlin">Berlin</placeName>, vielleicht in
+                            <placeName ref="http://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                            oder mal zur Abwechslung in <placeName>Berlin</placeName>. Lorem ipsum
+                            dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor invidunt ut labore</decoNote>
+                        <quote type="incipit">Abbatis Siculi repertorium n vii</quote>
+                        <quote type="explicit">sed libera nos a malo.</quote>
+                        <decoNote type="form">sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</decoNote>
+                    </msItem>
+                    <msItem>
+                        <note type="music">et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam et dolore magna aliquyam erat, für die <orgName role="owner"
+                                                                                    ref="http://d-nb.info/gnd/5036103-X">Staatsbibliothek zu
+                                Berlin</orgName> oder der <orgName key="30002258" role="owner"
+                            >Staatsbibliothek zu Berlin</orgName>, vielleicht auch der <orgName
+                                    key="30002258" ref="http://d-nb.info/gnd/5036103-X" role="owner"
+                            >Staatsbibliothek zu Berlin</orgName> und der <orgName role="owner"
+                            >Staatsbibliothek zu Berlin</orgName> sed diam voluptua. At vero eos
+                            et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                            no sea takimata sanctus est Lorem ipsum dolor sit amet.</note>
+                        <msItem>
+                            <quote type="incipit">et dolore magna</quote>
+                            <quote type="explicit">et accusam et justo duo</quote>
+                        </msItem>
+                    </msItem>
+                </msContents>
+                <physDesc>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                        voluptua. Hauptsächlich von <persName ref="http://d-nb.info/gnd/118575449"
+                                                              role="author">Martin Luther</persName>, der <persName key="31711049"
+                                                                                                                    role="author">Martin Luther</persName>, der wirkliche <persName
+                                ref="http://d-nb.info/gnd/118575449" key="31711049" role="author">Martin
+                            Luther</persName> und nicht der <persName role="author">Martin
+                            Luther</persName> At vero eos et accusam et justo duo dolores et ea
+                        rebum. Stet clita kasd gubergren</p>
+                    <decoDesc>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                            eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                            voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                            clita kasd gubergren</p>
+                    </decoDesc>
+                </physDesc>
+                <history>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+                        diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                        amet.</p>
+                </history>
+                <additional>
+                    <listBibl>
+                        <bibl>Lorem ipsum dolor sit amet</bibl>
+                        <bibl>Lorem ipsum dolor sit amet</bibl>
+                    </listBibl>
+                </additional>
+                <msPart type="binding">
+                    <msIdentifier>
+                        <idno>Einband</idno>
+                    </msIdentifier>
+                    <head>
+                        <index indexName="norm">
+                            <term type="material">Mischung aus Papier und Leinen</term>
+                            <term type="material_type">linen</term>
+                            <term type="material_type">chart</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="dimensions">22 x 12,5</term>
+                            <term type="height">22</term>
+                            <term type="width">12,5</term>
+                            <term type="depth">0</term>
+                            <term type="dimensions_typeOfInformation">vorliegend</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="origDate">Anfang 9. Jh.</term>
+                            <term type="origDate_notBefore">0801</term>
+                            <term type="origDate_notAfter">0815</term>
+                            <term type="origDate_type">Datierung</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="status">available</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="decoration">yes</term>
+                        </index>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note type="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                                nonumy eirmod tempor invidunt ut labore</note>
+                        </msItem>
+                        <msItem>
+                            <decoNote type="content">et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                                sea takimata sanctus est Lorem ipsum dolor sit amet</decoNote>
+                        </msItem>
+                        <msItem>
+                            <note type="music">et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                accusam et dolore magna aliquyam erat</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <p>sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                            erat, sed diam voluptua.</p>
+                        <decoDesc>
+                            <p>vouptua</p>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <p>At vero eos et accusam et justo duo dolores et ea rebum</p>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Lorem ipsum dolor sit amet</bibl>
+                            <bibl>Lorem ipsum dolor sit amet</bibl>
+                        </listBibl>
+                    </additional>
+
+                    <msPart type="fragment">
+                        <msIdentifier>
+                            <idno>lorem ipsum</idno>
+                        </msIdentifier>
+                        <head>
+                            <index indexName="norm">
+                                <term type="material">Mischung aus Papier und Leinen</term>
+                                <term type="material_type">linen</term>
+                                <term type="material_type">chart</term>
+                            </index>
+                            <index indexName="norm">
+                                <term type="dimensions">22 x 12,5</term>
+                                <term type="height">22</term>
+                                <term type="width">12,5</term>
+                                <term type="depth">0</term>
+                                <term type="dimensions_typeOfInformation">vorliegend</term>
+                            </index>
+                            <index indexName="norm">
+                                <term type="origDate">Anfang 9. Jh.</term>
+                                <term type="origDate_notBefore">0801</term>
+                                <term type="origDate_notAfter">0815</term>
+                                <term type="origDate_type">Datierung</term>
+                            </index>
+                            <index indexName="norm">
+                                <term type="status">available</term>
+                            </index>
+                            <index indexName="norm">
+                                <term type="decoration">yes</term>
+                            </index>
+                        </head>
+                        <msContents>
+                            <msItem>
+                                <note type="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                                    diam nonumy eirmod tempor invidunt ut labore</note>
+                            </msItem>
+                            <msItem>
+                                <decoNote type="content">et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                                    no sea takimata sanctus est Lorem ipsum dolor sit amet</decoNote>
+                            </msItem>
+                            <msItem>
+                                <note type="music">et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+                                </note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <p>sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                                aliquyam erat, sed diam voluptua.<p>a</p></p>
+                            <decoDesc>
+                                <p>vouptua</p>
+                            </decoDesc>
+                        </physDesc>
+                        <history>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum</p>
+                        </history>
+                    </msPart>
+                </msPart>
+                <msPart type="booklet">
+                    <msIdentifier>
+                        <idno>Faszikel</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Lorem ipsum</title>
+                        <note type="headline">dolor sit amet</note>
+                        <index indexName="norm_title">
+                            <term type="title">Lorem ipsum</term>
+                        </index>
+                        <index indexName="norm_material">
+                            <term type="material">Mischung aus Papier und Leinen</term>
+                            <term type="material_type">linen</term>
+                            <term type="material_type">chart</term>
+                        </index>
+                        <index indexName="norm_measure">
+                            <term type="measure">12 Bl.</term>
+                            <term type="measure_noOfLeaves">12</term>
+                        </index>
+                        <index indexName="norm_dimensions">
+                            <term type="dimensions">22 x 12,5</term>
+                            <term type="height">22</term>
+                            <term type="width">12,5</term>
+                            <term type="depth">0</term>
+                            <term type="format">folio</term>
+                            <term type="format_typeOfInformation">real</term>
+                        </index>
+                        <index indexName="norm_origDate">
+                            <term type="origDate">Anfang 9. Jh.</term>
+                            <term type="origDate_notBefore">0801</term>
+                            <term type="origDate_notAfter">0815</term>
+                            <term type="origDate_type">Datierung</term>
+                        </index>
+                        <index indexName="norm_textLang">
+                            <term type="textLang">latein</term>
+                            <term type="textLang-ID">la</term>
+                        </index>
+                        <index indexName="norm_form">
+                            <term type="form">booklet</term>
+                        </index>
+                        <index indexName="norm_status">
+                            <term type="status">available</term>
+                        </index>
+                        <index indexName="norm_decoration">
+                            <term type="decoration">yes</term>
+                        </index>
+                        <index indexName="norm_musicNotation">
+                            <term type="musicNotation">no</term>
+                        </index>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note type="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                                nonumy eirmod tempor invidunt ut labore</note>
+                        </msItem>
+                        <msItem>
+                            <decoNote type="content">et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                                sea takimata sanctus est Lorem ipsum dolor sit amet</decoNote>
+                        </msItem>
+                        <msItem>
+                            <note type="music">et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                accusam et dolore magna aliquyam erat</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <p>sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                            erat, sed diam voluptua.</p>
+                        <decoDesc>
+                            <p>volupta</p>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <p>At vero eos et accusam et justo duo dolores et ea rebum</p>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Lorem ipsum dolor sit amet</bibl>
+                            <bibl>Lorem ipsum dolor sit amet</bibl>
+                        </listBibl>
+                    </additional>
+                </msPart>
+                <msPart type="accMat">
+                    <msIdentifier>
+                        <idno>Beigabe</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Lorem ipsum</title>
+                        <note type="headline">dolor sit amet</note>
+                        <index indexName="norm">
+                            <term type="title">Lorem ipsum</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="material">Mischung aus Papier und Leinen</term>
+                            <term type="material_type">linen</term>
+                            <term type="material_type">chart</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="measure">12 Bl.</term>
+                            <term type="measure_noOfLeaves">12</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="dimensions">22 x 12,5</term>
+                            <term type="height">22</term>
+                            <term type="width">12,5</term>
+                            <term type="depth">0</term>
+                            <term type="dimensions_typeOfInformation">vorliegend</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="origDate">Anfang 9. Jh.</term>
+                            <term type="origDate_notBefore">0801</term>
+                            <term type="origDate_notAfter">0815</term>
+                            <term type="origDate_type">Datierung</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="textLang">latein</term>
+                            <term type="textLang-ID">la</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="form">accMat</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="status">available</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="decoration">yes</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="musicNotation">no</term>
+                        </index>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note type="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                                nonumy eirmod tempor invidunt ut labore</note>
+                        </msItem>
+                        <msItem>
+                            <decoNote type="content">et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                                sea takimata sanctus est Lorem ipsum dolor sit amet</decoNote>
+                        </msItem>
+                        <msItem>
+                            <note type="music">et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                accusam et dolore magna aliquyam erat</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <p>sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                            erat, sed diam voluptua.</p>
+                        <decoDesc>
+                            <p>volupta</p>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <p>At vero eos et accusam et justo duo dolores et ea rebum</p>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Lorem ipsum dolor sit amet</bibl>
+                            <bibl>Lorem ipsum dolor sit amet</bibl>
+                        </listBibl>
+                    </additional>
+                </msPart>
+                <msPart type="fragment">
+                    <msIdentifier>
+                        <idno>Fragment</idno>
+                        <altIdentifier>
+                            <idno>ipsu,</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <head>
+                        <title>Lorem ipsum</title>
+                        <note type="headline">dolor sit amet</note>
+                        <index indexName="norm">
+                            <term type="title">Lorem ipsum</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="material">Mischung aus Papier und Leinen</term>
+                            <term type="material_type">linen</term>
+                            <term type="material_type">chart</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="measure">12 Bl.</term>
+                            <term type="measure_noOfLeaves">12</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="dimensions">22 x 12,5</term>
+                            <term type="height">22</term>
+                            <term type="width">12,5</term>
+                            <term type="depth">0</term>
+                            <term type="dimensions_typeOfInformation">vorliegend</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="origDate">Anfang 9. Jh.</term>
+                            <term type="origDate_notBefore">0801</term>
+                            <term type="origDate_notAfter">0815</term>
+                            <term type="origDate_type">Datierung</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="textLang">latein</term>
+                            <term type="textLang-ID">la</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="form">fragment</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="status">available</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="decoration">yes</term>
+                        </index>
+                        <index indexName="norm">
+                            <term type="musicNotation">no</term>
+                        </index>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note type="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                                nonumy eirmod tempor invidunt ut labore</note>
+                        </msItem>
+                        <msItem>
+                            <decoNote type="content">et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                                sea takimata sanctus est Lorem ipsum dolor sit amet</decoNote>
+                        </msItem>
+                        <msItem>
+                            <note type="music">et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                accusam et dolore magna aliquyam erat</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <p>sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                            erat, sed diam voluptua.</p>
+                        <decoDesc>
+                            <p>volupta</p>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <p>At vero eos et accusam et justo duo dolores et ea rebum</p>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Lorem ipsum dolor sit amet</bibl>
+                            <bibl>Lorem ipsum dolor sit amet</bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart type="fragment">
+                        <msIdentifier>
+                            <idno>Fragment</idno>
+                            <altIdentifier>
+                                <idno>ipsu,</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <head>
+                            <title>Lorem ipsum</title>
+                            <note type="headline"> dolor sit amet </note>
+                            <index indexName="norm">
+                                <term type="title">Lorem ipsum</term>
+                            </index>
+                            <index indexName="norm">
+                                <term type="material">Mischung aus Papier und Leinen</term>
+                                <term type="material_type">linen</term>
+                                <term type="material_type">chart</term>
+                            </index>
+                            <index indexName="norm">
+                                <term type="measure">12 Bl.</term>
+                                <term type="measure_noOfLeaves">12</term>
+                            </index>
+                            <index indexName="norm">
+                                <term type="dimensions">22 x 12,5</term>
+                                <term type="height">22</term>
+                                <term type="width">12,5</term>
+                                <term type="depth">0</term>
+                                <term type="dimensions_typeOfInformation">vorliegend</term>
+                            </index>
+                            <index indexName="norm">
+                                <term type="origDate">Anfang 9. Jh.</term>
+                                <term type="origDate_notBefore">0801</term>
+                                <term type="origDate_notAfter">0815</term>
+                                <term type="origDate_type">Datierung</term>
+                            </index>
+                            <index indexName="norm">
+                                <term type="textLang">latein</term>
+                                <term type="textLang-ID">la</term>
+                            </index>
+                            <index indexName="norm">
+                                <term type="form">fragment</term>
+                            </index>
+                            <index indexName="norm">
+                                <term type="status">available</term>
+                            </index>
+                            <index indexName="norm">
+                                <term type="decoration">yes</term>
+                            </index>
+                            <index indexName="norm">
+                                <term type="musicNotation">no</term>
+                            </index>
+                        </head>
+                        <msContents>
+                            <msItem>
+                                <note type="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                                    diam nonumy eirmod tempor invidunt ut labore</note>
+                            </msItem>
+                            <msItem>
+                                <decoNote type="content">et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                                    no sea takimata sanctus est Lorem ipsum dolor sit amet</decoNote>
+                            </msItem>
+                            <msItem>
+                                <note type="music">et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+                                    et accusam et dolore magna aliquyam erat</note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <p>sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                                aliquyam erat, sed diam voluptua.</p>
+                            <decoDesc>
+                                <p>volupta</p>
+                            </decoDesc>
+                        </physDesc>
+                        <history>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum</p>
+                        </history>
+                    </msPart>
+                </msPart>
+            </msDesc>
+        </body>
+    </text>
+</TEI>

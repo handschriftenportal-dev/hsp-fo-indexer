@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TEI xml:lang="de" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:egXML="http://www.tei-c.org/ns/Examples" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Beschreibung von Aurich, Niedersächsisches Staatsarchiv, Dep. IV Msc. IX, 1 (STAHL, Irene: Handschriften in Nordwestdeutschland: Aurich - Emden - Oldenburg. - Wiesbaden: Harrassowitz, 1993. - (Mittelalterliche Handschriften in Niedersachsen: Kurzkatalog; H. 3))</title>
+                <respStmt>
+                    <resp>Beschrieben von</resp>
+                    <persName role="author">Irene Stahl</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Elektronische Ausgabe nach TEI P5</edition>
+                <respStmt>
+                    <resp>Diese Datei wurde unter Anwendung des MXML-to-TEI-P5-Stylesheets, welches an der Herzog August Bibliothek Wolfenbüttel im Rahmen des Projektes "Handschriftenportal" gepflegt wird aus einem am 13.10.2021 15:35:25:214 erstellten HIDA-DOC1-XML-Dokument erstellt. Grundlage ist ein Retrokonversionsdokument.</resp>
+                    <name type="org">Handschriftenportal</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Handschriftenportal</name>
+               </publisher>
+                <date when="1993" type="published">1993</date>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-sa/3.0/de/">
+                        <p>http://creativecommons.org/licenses/by-sa/3.0/de/</p>
+                  </licence>
+                </availability>
+                <idno type="hsk">440</idno>
+                <pubPlace>
+                    <ptr target="HSP-a8abb4bb-284b-3b27-aa7c-b790dc20f80b" type="hsp"/>
+                </pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl n="AUR_NLA">STAHL, Irene: Handschriften in Nordwestdeutschland: Aurich - Emden - Oldenburg. - Wiesbaden: Harrassowitz, 1993. - (Mittelalterliche Handschriften in Niedersachsen: Kurzkatalog; H. 3) 
+                    <biblScope from="Page32_Block1" to="Page33_Block2" facs="https://iiif.ub.uni-leipzig.de/0000034537/range/LOG_0014">32–33</biblScope>
+                    <ptr type="hsp" target="https://iiif.ub.uni-leipzig.de/0000034537/manifest.json" />
+               </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="HSK0440_a032_90411537-T" url="http://bilder.manuscripta-mediaevalia.de/hs/katalogseiten/HSK0440_a032_jpg.htm"/>
+    </facsimile>
+    <text>
+        <body>
+            <msDesc status="extern" xml:id="HSP-a266470f-b10c-3a61-97cd-62c3e59bfc12" xml:lang="de" subtype="medieval" type="hsp:description_retro">
+                <msIdentifier>
+                    <settlement key="5b2f6128-0219-3b03-b98e-2f69ce30fe5d">Aurich</settlement>
+                    <repository key="318df10d-7abc-365d-b6e8-c39c8bafc6eb" ref="http://d-nb.info/gnd/1147794049 https://sigel.staatsbibliothek-berlin.de/suche/?isil=DE-1811-AU" rend="SA">Niedersächsisches Staatsarchiv</repository>
+                    <collection>Dep. IV</collection>
+                    <collection type="baseShelfmarkGroup">Dep. IV Msc. IX, 1-74</collection>
+                    <idno>Dep. IV Msc. IX, 1</idno>
+                    <altIdentifier type="catalog">
+                        <idno>MXML-90411537-T</idno>
+                    </altIdentifier>
+                    <altIdentifier type="hsp-ID">
+                        <collection>Handschriftenportal Kulturobjektdokument-ID</collection>
+                        <idno>HSP-81c08edc-03a8-389c-a6db-ebdb8b7e00a1</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <head>
+                    <index indexName="norm_title">
+                        <term type="title">Seifried · Buch von Troja · Ps.-Aristoteles, dt.</term>
+                    </index>
+                    <note type="headline">Papier · 265 (Blatt) · 29 x 21 (cm) · Oberpfalz · 1455</note>
+                    <title>Seifried. Buch von Troja. Ps.-Aristoteles (dt.)</title>
+                    <index indexName="norm_material">
+                        <term type="material">Papier</term>
+                        <term type="material_type">paper</term>
+                    </index>
+                    <index indexName="norm_measure">
+                        <term type="measure">265 Bl.</term>
+                        <term type="measure_noOfLeaves">265</term>
+                    </index>
+                    <index indexName="norm_dimensions">
+                        <term type="dimensions">29 × 21</term>
+                        <term type="height">29</term>
+                        <term type="width">21</term>
+                        <term type="depth"/>
+                        <term type="dimensions_typeOfInformation">factual</term>
+                    </index>
+                    <index indexName="norm_format">
+                        <term type="format">folio</term>
+                        <term type="format_typeOfInformation">computed</term>
+                    </index>
+                    <index indexName="norm_format">
+                        <term type="format">quarto</term>
+                        <term type="format_typeOfInformation">computed</term>
+                    </index>
+                    <index indexName="norm_origPlace">
+                        <term type="origPlace">Oberpfalz</term>
+                        <term type="origPlace_gnd-ID">4042961-1</term>
+                    </index>
+                    <index indexName="norm_origDate">
+                        <term type="origDate">1455</term>
+                        <term type="origDate_notBefore">1455</term>
+                        <term type="origDate_notAfter">1455</term>
+                        <term type="origDate_type">dated</term>
+                    </index>
+                    <index indexName="norm_textLang">
+                        <term type="textLang">deutsch</term>
+                        <term type="textLang-ID">de</term>
+                    </index>
+                    <index indexName="norm_form">
+                        <term type="form">codex</term>
+                    </index>
+                    <index indexName="norm_status">
+                        <term type="status"/>
+                    </index>
+                    <index indexName="norm_decoration">
+                        <term type="decoration">yes</term>
+                    </index>
+                    <index indexName="norm_musicNotation">
+                        <term type="musicNotation"/>
+                    </index>
+               </head>
+                <msPart type="other">
+                    <msIdentifier>
+                        <idno>Sonstiges</idno>
+                    </msIdentifier>
+                    <p>
+                        <index xml:id="obj_90411538_KRZ">
+                            <term facs="#HSK0440_a032">Buchschmuck</term>
+                            <index>
+                                <term>Initialen</term>
+                                <index>
+                                    <term>Rankeninitialen</term>
+                                </index>
+                            </index>
+                        </index>
+                        <index xml:id="obj_90411539_KRZ">
+                            <term facs="#HSK0440_a032">Oberpfalz</term>
+                            <index>
+                                <term>Provenienz I (Schriftheimat, Entstehungsort)</term>
+                            </index>
+                        </index>
+                        <index xml:id="obj_90411541_KRZ">
+                            <term facs="#HSK0440_a032">Seifried</term>
+                            <index>
+                                <term>Alexanderlied</term>
+                                <index>
+                                    <term>dt.</term>
+                                </index>
+                            </index>
+                        </index>
+                        <index xml:id="obj_90411542_KRZ">
+                            <term facs="#HSK0440_a032">Datierung der Handschriften</term>
+                            <index>
+                                <term>1455</term>
+                            </index>
+                        </index>
+                        <index xml:id="obj_90411543_KRZ">
+                            <term facs="#HSK0440_a032">Heimbach, Alexander</term>
+                            <index>
+                                <term>Provenienz II (Vorbesitzer)</term>
+                            </index>
+                        </index>
+                        <index xml:id="obj_90411545_KRZ">
+                            <term facs="#HSK0440_a032">Buch von Troja</term>
+                            <index>
+                                <term>dt.</term>
+                            </index>
+                        </index>
+                        <index xml:id="obj_90411548_KRZ">
+                            <term facs="#HSK0440_a032">Schober, Hans</term>
+                            <index>
+                                <term>Übersetzer</term>
+                            </index>
+                        </index>
+                        <index xml:id="obj_90411552_KRZ">
+                            <term facs="#HSK0440_a032">Sentenzen</term>
+                            <index>
+                                <term>dt.</term>
+                            </index>
+                        </index>
+                        <index xml:id="obj_90411553_KRZ">
+                            <term facs="#HSK0440_a032">Verse</term>
+                            <index>
+                                <term>dt.</term>
+                            </index>
+                        </index>
+                        <index xml:id="obj_90411554_KRZ">
+                            <term facs="#HSK0440_a032">Wappen</term>
+                            <index>
+                                <term>Kupferstich</term>
+                                <index>
+                                    <term>nicht identifiziert</term>
+                                </index>
+                            </index>
+                        </index>
+                        <index xml:id="obj_90411555_KRZ">
+                            <term facs="#HSK0440_a032">Heimbach, Alexander</term>
+                            <index>
+                                <term>Provenienz II (Vorbesitzer)</term>
+                            </index>
+                        </index>
+                        <index xml:id="obj_90411556_KRZ">
+                            <term facs="#HSK0440_a032">Jörg von Helmstadt</term>
+                            <index>
+                                <term>Provenienz II (Vorbesitzer)</term>
+                            </index>
+                        </index>
+                        <index xml:id="obj_90411557_KRZ">
+                            <term facs="#HSK0440_a032">Heimbach, Alexander</term>
+                            <index>
+                                <term>Provenienz II (Vorbesitzer)</term>
+                            </index>
+                        </index>
+                    </p>
+                    <p n="Page32_Block1">
+                        <pb n="Page32"/>
+                        <lb n="Page32_Block1_Line1"/>
+                        <idno>Dep. IV Msc. IX, 1</idno>
+                    </p>
+                    <p n="Page32_Block2">
+                        <lb n="Page32_Block2_Line1"/>32</p>
+                    <p n="Page32_Block3">
+                        <lb n="Page32_Block3_Line1"/>
+                        <title>Seifried. Buch von Troja. Ps.-Aristoteles (dt.)</title>
+                        <lb n="Page32_Block3_Line2"/>
+                        <material key="Papier">Papier</material> - 
+                        <measure type="extent" quantity="265" unit="blatt">265</measure> Bl. - 
+                        <measure type="size" unit="cm">29 x 21</measure> - 
+                        <origPlace>Oberpfalz</origPlace> - 
+                        <origDate>1455</origDate>
+                    </p>
+                    <p n="Page32_Block4">
+                        <lb n="Page32_Block4_Line1"/>Drei Hände. Rubriziert. Ir gemalte Initiale mit Blattgoldverzierung; Rankenbordüre
+                        <lb n="Page32_Block4_Line2"/>am oberen und inneren Rand. Ir - 126r rote, blaue und grüne
+                        <lb n="Page32_Block4_Line3"/>Initalen, nicht oder kaum verziert.
+                        <lb n="Page32_Block4_Line4"/>Einband 15. Jh. mit aufwendigen Schließen und Beschlägen. Vorderer
+                        <lb n="Page32_Block4_Line5"/>Spiegel: Besitzvermerk. 1567 Alexander Heimbach. Hinterer Spiegel:
+                        <lb n="Page32_Block4_Line6"/>Aufgeklebter Kupferstich mit Wappen, koloriert, handschriftliche Datierung
+                        <lb n="Page32_Block4_Line7"/>in der rechten unteren Ecke: 1559. Darauf und darunter Reime
+                        <lb n="Page32_Block4_Line8"/>und Sentenzen (dt.) von der Hand Heimbachs. Das schönest wappen
+                        <lb n="Page32_Block4_Line9"/>acht ich fein/ wer sich mit tugent zieret fein...
+                        <lb n="Page32_Block4_Line10"/>Provenienz unbekannt. Vorbesitzer: Alexander Heimbach. Von seiner
+                        <lb n="Page32_Block4_Line11"/>Hand finden sich mehrere datierte Einträge: 1567 (VS), 1580 Jan. 2
+                        <lb n="Page32_Block4_Line12"/>(HS), 1582 Aug. 29 (126r), desgleichen Marginalien erläuternden, moralisierenden
+                        <lb n="Page32_Block4_Line13"/>und ironisch kommentierenden Inhalts zum zweiten und
+                        <lb n="Page32_Block4_Line14"/>dritten Text der Handschrift. Unter dem nur am linken Rand auf dem
+                        <lb n="Page32_Block4_Line15"/>rückwärtigen Spiegel aufgeklebten Kupferstich findet sich ein früherer,
+                        <lb n="Page32_Block4_Line16"/>undatierter Besitzeintrag: Dyß buoch gehöret Jorg von Helmstat zu (HS).</p>
+                    <p n="Page32_Block5">
+                        <lb n="Page32_Block5_Line1"/>Ir - 126r SEIFRIED: ALEXANDERLIED. Got vater herr Ihesu Cr ist/ dein
+                        <lb n="Page32_Block5_Line2"/>genad unzergäncklich ist/ und dein gruntlose mynn... (126r) Nu haben
+                        <lb n="Page32_Block5_Line3"/>wir volendet/ und in tewtsche sprach gewendet/ dises puch alsus ... Nach
+                        <lb n="Page32_Block5_Line4"/>der zeit gelawbet das/ do got mensch worden was/ über vierzehen hundert
+                        <lb n="Page32_Block5_Line5"/>jar/ und im fünfundfünfzigisten fürwarl an sand Görgen nacht/ wart
+                        <lb n="Page32_Block5_Line6"/>das puch geschriben und verpracht/ das die rechten warhait/ von künig
+                        <lb n="Page32_Block5_Line7"/>Alexander hat gesait... Druck: P. Gereke, Seifrits Alexander aus der
+                        <lb n="Page32_Block5_Line8"/>Straßburger Handschrift, Berlin 1932 (Deutsche Texte des Mittelalters
+                        <lb n="Page32_Block5_Line9"/>36). 126v leer.
+                        <lb n="Page32_Block5_Line10"/>127r - 222r Buch von Troja. Prosafassung nach Konrad von Würzburg:
+                        <lb n="Page32_Block5_Line11"/>Trojanerkrieg.</p>
+                    <p n="Page33_Block1">
+                        <pb n="Page33"/>
+                        <lb n="Page33_Block1_Line1"/>33</p>
+                    <p n="Page33_Block2">
+                        <lb n="Page33_Block2_Line1"/>(127r) Titel. &gt;Vonn der wunderlichen Zerstörung die zu zwayen malen
+                        <lb n="Page33_Block2_Line2"/>an der mechtigen grossen und herlichen stat Troya geschehen sind...&lt;
+                        <lb n="Page33_Block2_Line3"/>(128r) Ain stat hies Troya do was ain kunig inne der was gewaltig über
+                        <lb n="Page33_Block2_Line4"/>manig land und hies der kunig Priamus... (222r) Der zevil getrawet
+                        <lb n="Page33_Block2_Line5"/>seiner herlichkayt, seiner trewe und seiner erenkraft und nicht furcht das
+                        <lb n="Page33_Block2_Line6"/>gelück ist sinwel, der sech an Eccuba und unnser grosse mächtige statt
+                        <lb n="Page33_Block2_Line7"/>Troya... Et sic e st finis/ iuden essent nit swinis. VL2 1, 1100. K. Schneider,
+                        <lb n="Page33_Block2_Line8"/>Der Trojanische Krieg’ im späten Mittelalter. Deutsche Trojaromane
+                        <lb n="Page33_Block2_Line9"/>des 15. Jahrhunderts, Berlin 1968 (Philologische Studien und Quellen
+                        <lb n="Page33_Block2_Line10"/>40), 73 - 81 (diese Handschrift nicht erwähnt). Nicht ediert.
+                        <lb n="Page33_Block2_Line11"/>127v, 222v leer.
+                        <lb n="Page33_Block2_Line12"/>223r - 265r Ps.-Aristoteles: SECRETUM SECRETORUM. Ins Deutsche
+                        <lb n="Page33_Block2_Line13"/>übersetzt von Hans Schober. Eingeteilt in 8 Bücher. Ohne Register.
+                        <lb n="Page33_Block2_Line14"/>(223r) Vorrede. Seinem allerhöchsten hern und in cristenlichem glawben
+                        <lb n="Page33_Block2_Line15"/>dem allergestrengsten hern Gwidoni von warer macht bischof der stat
+                        <lb n="Page33_Block2_Line16"/>Tripolis gibewtet Philippus der mynste seiner cleriken sich selbs und
+                        <lb n="Page33_Block2_Line17"/>sein getrew dinst der andacht. Sovil die sunne liechter ist dann ander
+                        <lb n="Page33_Block2_Line18"/>Stern und sovil die glentze der sunne scheinpar sind dann der monde...
+                        <lb n="Page33_Block2_Line19"/>(225r) &gt;Die ander vorred&lt;. Iohannes der ausgezogen hat diß puch, ain
+                        <lb n="Page33_Block2_Line20"/>sun Patricii, der kundigist und getrewste tulmetsch der zungen sprach...
+                        <lb n="Page33_Block2_Line21"/>(225v) &gt;Ein epistel an Alexandrum hebt an das erst puch&lt;. Aller eren-
+                        <lb n="Page33_Block2_Line22"/>reichster sun, aller gerechtister keyser, got wolle dich bestercken in dem
+                        <lb n="Page33_Block2_Line23"/>weg der erkentnusse der heymlichen worheit... (265r) Geendet ist das
+                        <lb n="Page33_Block2_Line24"/>buch von den zaichen und natürlichen syten der menschen geschriben an
+                        <lb n="Page33_Block2_Line25"/>den großwurckenden könig Allexandrum der geherschet hat der gantzen
+                        <lb n="Page33_Block2_Line26"/>weit genannt ain ayniger fürste in septemtrione das ist in mitternacht.
+                        <lb n="Page33_Block2_Line27"/>Hanns Schober. VL2 8, 993 - 1013, hier 1007 Nr. III Bll. Zu Hans
+                        <lb n="Page33_Block2_Line28"/>Schober vgl. ebd., 799 f. (hier weitere Literatur). W. Roll, Rezension zu
+                        <lb n="Page33_Block2_Line29"/>R. Möller, Hiltgart von Hürnheim. Mittelhochdeutsche Prosaübersetzung
+                        <lb n="Page33_Block2_Line30"/>des "Secretum secretorum", Berlin 1963 (Deutsche Texte des Mittelalters
+                        <lb n="Page33_Block2_Line31"/>56); in: Deutsche Literaturzeitung 87 (1966), 223 - 227, hier 226 f.
+                        <lb n="Page33_Block2_Line32"/>F. Wurms, Studien zu den deutschen und lateinischen Prosafassungen
+                        <lb n="Page33_Block2_Line33"/>des pseudo-aristotelischen "Secretum secretorum", Hamburg 1970, 127 f.
+                        <lb n="Page33_Block2_Line34"/>Nicht ediert. Auszüge bei O. Rohde, Über eine noch unbekannte spätmittelalterliche
+                        <lb n="Page33_Block2_Line35"/>Prosa Übersetzung des pseudo-aristotelischen Secretum
+                        <lb n="Page33_Block2_Line36"/>Secretorum, Diss. phil. Hamburg 1923 (masch.), 31-75.
+                        <lb n="Page33_Block2_Line37"/>265v leer.</p>
+                </msPart>
+            </msDesc>
+        </body>
+    </text>
+</TEI>

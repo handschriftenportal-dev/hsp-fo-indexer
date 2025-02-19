@@ -1,0 +1,90 @@
+---
+common:
+  # if an infrastructure error occurs, this interval in cron notation is used to restart the indexing
+  # and therefor checking if the problem is resolved
+  restart-interval: 60000
+
+eureka:
+  instance:
+    non-secure-port-enabled: true
+    prefer-ip-address: false
+    statusPageUrlPath: ${server.servlet.context-path}/info
+    healthPageUrlPath: ${server.servlet.context-path}/health
+
+handschriftenportal:
+  app:
+    uri:
+      host: handschriftenportal.de
+      scheme: https
+
+info:
+  component: hsp-fo-indexer
+  description: Handschriftenportal Front Office Indexer
+  version: @project.version@
+
+kafka:
+  bootstrap-servers: localhost:9092, localhost.pk.de:9093, localhost.pk.de:9094
+  groupid: hsp-fo-indexer
+  topic: tei-index
+
+listen:
+  auto:
+    start: true
+
+logging:
+  config: classpath:logback-spring.xml
+
+management:
+  info:
+    env:
+      enabled: true
+  endpoint:
+    health:
+      enabled: true
+      show-details: ALWAYS
+    info:
+      enabled: true
+    shutdown:
+      enabled: false
+  endpoints:
+    enabled-by-default: false
+    web:
+      base-path: /
+      exposure.include: health, info
+
+nachweis:
+  id: HSP-NACHWEIS
+
+authority-file:
+  id: NORMDATENSERVICE
+  path: /rest/graphql
+  protocol: https
+
+server:
+  port: 9297
+  servlet:
+    context-path: /api
+
+solr:
+  core: hsp
+  # used for disable polling in case a schema update is necessary
+  # follower: http://localhost:8984
+
+  # used for writing data
+  leader: http://localhost:8983
+  timeout:
+    connection: 5000
+    read: 300000
+  # whether to trigger re-indexing after schema update or not
+  trigger-reindexing:
+    false
+  version: 8
+
+spring:
+  application:
+    name: hsp-fo-indexer
+  cloud:
+    config:
+      enabled: false
+  config:
+    import: version.yml

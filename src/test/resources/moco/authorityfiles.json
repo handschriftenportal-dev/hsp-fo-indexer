@@ -1,0 +1,1544 @@
+[
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-909a19c7-84f8-4151-8702-5cd384b2dd7e",
+          "label": "CorporateBody"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "gnd test id",
+              "id": "NORM-909a19c7-84f8-4151-8702-5cd384b2dd7e",
+              "identifier": [
+                {
+                  "text": "test text",
+                  "type": "test type",
+                  "url": "test url"
+                }
+              ],
+              "name": "test name",
+              "preferredName": "test preferred name",
+              "variantName": [
+                {
+                  "name": "test variant name 01",
+                  "languageCode": "de"
+                },
+                {
+                  "name": "test variant name 02",
+                  "languageCode": "de"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "wrong test id",
+          "label": ""
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": null
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "wrong test id",
+          "label": "Place"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": null
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "4022153-2",
+          "label": "Place"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "4022153-2",
+              "id": "b7709fb2-a3f0-368c-bf55-8795392df656",
+              "identifier": [
+                {
+                  "text": "Großbritannien",
+                  "type": "HAB",
+                  "url": "http://diglib.hab.de/"
+                }
+              ],
+              "preferredName": "Großbritannien",
+              "variantName": [
+                {
+                  "name": "Albion",
+                  "languageCode": "de"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "4122692-6",
+          "label": "Place"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "4122692-6",
+              "id": "e2b0505a-2992-3edf-ab20-122a594e589d",
+              "identifier": [
+                {
+                  "text": "Nordharz",
+                  "type": "HAB",
+                  "url": "http://diglib.hab.de/"
+                }
+              ],
+              "preferredName": "Nordharz",
+              "variantName": null
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-1a75b353-14be-3c19-b22c-5c5334d78c8f",
+          "label": "Place"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "4030481-4",
+              "id": "NORM-1a75b353-14be-3c19-b22c-5c5334d78c8f",
+              "identifier": [
+                {
+                  "text": "Kiel",
+                  "type": "HAB",
+                  "url": "http://diglib.hab.de/"
+                }
+              ],
+              "preferredName": "Kiel",
+              "variantName": null
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "46e4ce6e-9ea0-3a38-8a81-2803103fe153",
+          "label": "CorporateBody"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "2032978-7",
+              "id": "46e4ce6e-9ea0-3a38-8a81-2803103fe153",
+              "identifier": [
+                {
+                  "text": "soz_30001446",
+                  "type": "HAB",
+                  "url": "http://diglib.hab.de/"
+                }
+              ],
+              "preferredName": "Franziskanerkloster",
+              "variantName": null
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "4032215-4",
+          "label": "Place"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "4032215-4",
+              "id": "7492c6d9-128b-38eb-8182-30d46e257d92",
+              "identifier": [
+                {
+                  "text": "Konstanz",
+                  "type": "HAB",
+                  "url": "http://diglib.hab.de/"
+                }
+              ],
+              "preferredName": "Konstanz",
+              "variantName": null
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "4032215-4",
+          "label": "Place"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "4032215-4",
+              "id": "7492c6d9-128b-38eb-8182-30d46e257d92",
+              "identifier": [
+                {
+                  "text": "Konstanz",
+                  "type": "HAB",
+                  "url": "http://diglib.hab.de/"
+                }
+              ],
+              "preferredName": "Konstanz",
+              "variantName": null
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "Staatsbibliothek zu\n                        Berlin",
+          "label": "CorporateBody"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": null
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "___UUID___",
+          "label": "Place"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": null
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "4264875-5",
+          "label": "Place"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": null
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "___UUID___",
+          "label": "CorporateBody"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": null
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-ee1611b6-1f56-38e7-8c12-b40684dbb395",
+          "label": "Place"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "5036103-X",
+              "id": "NORM-774909e2-f687-30cb-a5c4-ddc95806d6be",
+              "identifier": [
+                {
+                  "text": "DE-1",
+                  "type": "Isil",
+                  "url": "http://sigel.staatsbibliothek-berlin.de/suche/?isil=DE-1"
+                },
+                {
+                  "text": "soz_30002258",
+                  "type": "HAB",
+                  "url": "http://diglib.hab.de/"
+                }
+              ],
+              "preferredName": "Staatsbibliothek zu Berlin",
+              "variantName": [
+                {
+                  "name": "Dt. SB",
+                  "languageCode": "de"
+                },
+                {
+                  "name": "Staatsbibliothek zu Berlin - Preußischer Kulturbesitz",
+                  "languageCode": null
+                },
+                {
+                  "name": "Gosudarstvennaja Biblioteka v Berline - Prusskoe Kulʹturnoe Nasledie",
+                  "languageCode": null
+                },
+                {
+                  "name": "SBPK",
+                  "languageCode": "de"
+                },
+                {
+                  "name": "Bibliotheca Regia Berolinensis",
+                  "languageCode": "de"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-9caa05ee-be18-3003-bfa9-454aa6349a9f",
+          "label": "CorporateBody"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "36197-5",
+              "id": "NORM-9caa05ee-be18-3003-bfa9-454aa6349a9f",
+              "identifier": [
+                {
+                  "text": "soz_30002611",
+                  "type": "HAB",
+                  "url": "http://diglib.hab.de/"
+                },
+                {
+                  "text": "DE-8",
+                  "type": "Isil",
+                  "url": "http://sigel.staatsbibliothek-berlin.de/suche/?isil=DE-8"
+                }
+              ],
+              "preferredName": "Universitätsbibliothek Kiel",
+              "variantName": [
+                {
+                  "name": "Universität Kiel. Bibliothek",
+                  "languageCode": null
+                },
+                {
+                  "name": "Christian-Albrechts-Universität zu Kiel. Universitätsbibliothek Kiel",
+                  "languageCode": null
+                },
+                {
+                  "name": "Christian-Albrechts-Universität. Universitätsbibliothek",
+                  "languageCode": null
+                },
+                {
+                  "name": "Universität Kiel. Universitätsbibliothek",
+                  "languageCode": null
+                },
+                {
+                  "name": "Königliche Universitätsbibliothek",
+                  "languageCode": null
+                },
+                {
+                  "name": "Christian-Albrechts-Universität zu Kiel. Zentralbibliothek",
+                  "languageCode": null
+                },
+                {
+                  "name": "Christian-Albrecht-Universität zu Kiel. Universitätsbibliothek",
+                  "languageCode": null
+                },
+                {
+                  "name": "Universitätsbibliothek",
+                  "languageCode": null
+                },
+                {
+                  "name": "Kieler Universitätsbibliothek",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-654a4abc-3191-3e68-995b-4fdbd157cf9d",
+          "label": "CorporateBody"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "4126343-1",
+              "id": "NORM-654a4abc-3191-3e68-995b-4fdbd157cf9d",
+              "identifier": [
+                {
+                  "text": "soz_30001342",
+                  "type": "HAB",
+                  "url": "http://diglib.hab.de/"
+                }
+              ],
+              "preferredName": "Kloster Sankt Emmeram Regensburg",
+              "variantName": [
+                {
+                  "name": "Benediktinerkloster Sankt Emmeram",
+                  "languageCode": null
+                },
+                {
+                  "name": "St. Emmeram",
+                  "languageCode": null
+                },
+                {
+                  "name": "Reichsabtei",
+                  "languageCode": null
+                },
+                {
+                  "name": "Benediktinerkloster",
+                  "languageCode": null
+                },
+                {
+                  "name": "Kloster Sankt Emmeram",
+                  "languageCode": null
+                },
+                {
+                  "name": "Reichsstift Sankt Emmeram",
+                  "languageCode": null
+                },
+                {
+                  "name": "Reichsstift",
+                  "languageCode": null
+                },
+                {
+                  "name": "Reichskloster",
+                  "languageCode": null
+                },
+                {
+                  "name": "Monastery (Sankt Emmeram : Regensburg)",
+                  "languageCode": null
+                },
+                {
+                  "name": "Fürstabtei",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-654a4abc-3191-3e68-995b-4fdbd157cf9d",
+          "label": "CorporateBody"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "4126343-1",
+              "id": "NORM-654a4abc-3191-3e68-995b-4fdbd157cf9d",
+              "identifier": [
+                {
+                  "text": "soz_30001342",
+                  "type": "HAB",
+                  "url": "http://diglib.hab.de/"
+                }
+              ],
+              "preferredName": "Kloster Sankt Emmeram Regensburg",
+              "variantName": [
+                {
+                  "name": "St. Emmeram",
+                  "languageCode": null
+                },
+                {
+                  "name": "Benediktinerkloster Sankt Emmeram",
+                  "languageCode": null
+                },
+                {
+                  "name": "Reichsabtei",
+                  "languageCode": null
+                },
+                {
+                  "name": "Benediktinerkloster",
+                  "languageCode": null
+                },
+                {
+                  "name": "Kloster Sankt Emmeram",
+                  "languageCode": null
+                },
+                {
+                  "name": "Reichsstift Sankt Emmeram",
+                  "languageCode": null
+                },
+                {
+                  "name": "Reichskloster",
+                  "languageCode": null
+                },
+                {
+                  "name": "Reichsstift",
+                  "languageCode": null
+                },
+                {
+                  "name": "Monastery (Sankt Emmeram : Regensburg)",
+                  "languageCode": null
+                },
+                {
+                  "name": "Fürstabtei",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-26cf9267-82fe-3bf1-a37a-c9960658499f",
+          "label": "Place"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "4048989-9",
+              "id": "NORM-26cf9267-82fe-3bf1-a37a-c9960658499f",
+              "identifier": [
+                {
+                  "text": "place_gnd_4048989-9",
+                  "type": "HAB",
+                  "url": "http://diglib.hab.de/"
+                }
+              ],
+              "preferredName": "Regensburg",
+              "variantName": [
+                {
+                  "name": "Walhalla (Markt Donaustauf)",
+                  "languageCode": "de"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-87370ae5-cf7c-3f3e-8adc-8dad1f9d2455",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "118670182",
+              "id": "NORM-87370ae5-cf7c-3f3e-8adc-8dad1f9d2455",
+              "identifier": [
+                {
+                  "text": "31704708",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Corvinus, Antonius",
+              "variantName": null
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-258c6031-1128-325c-82ee-3859e6930fe1",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "118575449",
+              "id": "NORM-258c6031-1128-325c-82ee-3859e6930fe1",
+              "identifier": [
+                {
+                  "text": "31711049",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Luther, Martin",
+              "variantName": null
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+
+
+
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-258c6031-1128-325c-82ee-3859e6930fe1",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "118575449",
+              "id": "NORM-258c6031-1128-325c-82ee-3859e6930fe1",
+              "identifier": [
+                {
+                  "text": "31711049",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Luther, Martin",
+              "variantName": null
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-1afa34a7-f984-3eab-9bb0-a7d494132ee5",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "102183201",
+              "id": "NORM-1afa34a7-f984-3eab-9bb0-a7d494132ee5",
+              "identifier": [
+                {
+                  "text": "131",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Georg Laubmann",
+              "variantName": [
+                {
+                  "name": "Laubmann, Georg",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-82161242-827b-303e-aacf-9c726942a1e4",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "134181190",
+              "id": "NORM-82161242-827b-303e-aacf-9c726942a1e4",
+              "identifier": [
+                {
+                  "text": "175",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Christian Hannick",
+              "variantName": [
+                {
+                  "name": "Hannick, Christian",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-38af8613-4b65-30f1-8fe3-3d30dd76442e",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "1029693145",
+              "id": "NORM-38af8613-4b65-30f1-8fe3-3d30dd76442e",
+              "identifier": [
+                {
+                  "text": "176",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Otto Kresten",
+              "variantName": [
+                {
+                  "name": "Kresten, Otto",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-65ded535-3c5e-348d-8b7d-48c591b8f430",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "117569585",
+              "id": "NORM-65ded535-3c5e-348d-8b7d-48c591b8f430",
+              "identifier": [
+                {
+                  "text": "132",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Wilhelm Meyer",
+              "variantName": [
+                {
+                  "name": "Meyer, Wilhelm",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-02522a2b-2726-3b0a-83bb-19f2d8d9524d",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "117348619",
+              "id": "NORM-02522a2b-2726-3b0a-83bb-19f2d8d9524d",
+              "identifier": [
+                {
+                  "text": "134",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Georg Thomas",
+              "variantName": [
+                {
+                  "name": "Thomas, Georg",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-9fc3d715-2ba9-336a-a70e-36d0ed79bc43",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "116115955",
+              "id": "NORM-9fc3d715-2ba9-336a-a70e-36d0ed79bc43",
+              "identifier": [
+                {
+                  "text": "133",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Friedrich Keinz",
+              "variantName": [
+                {
+                  "name": "Keinz, Friedrich",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-96da2f59-0cd7-346b-bde0-051047b0d6f7",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "1167253574",
+              "id": "NORM-96da2f59-0cd7-346b-bde0-051047b0d6f7",
+              "identifier": [
+                {
+                  "text": "177",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Wolfgang Lackner",
+              "variantName": [
+                {
+                  "name": "Lackner, Wolfgang",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-7f1de29e-6da1-3d22-b51c-68001e7e0e54",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "1027662250",
+              "id": "NORM-7f1de29e-6da1-3d22-b51c-68001e7e0e54",
+              "identifier": [
+                {
+                  "text": "135",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Brigitte Gullath",
+              "variantName": [
+                {
+                  "name": "Gullath, Brigitte",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-8f53295a-7387-3494-a9bc-8dd6c3c7104f",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "100365728",
+              "id": "NORM-8f53295a-7387-3494-a9bc-8dd6c3c7104f",
+              "identifier": [
+                {
+                  "text": "179",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Johann Conrad Irmischer",
+              "variantName": [
+                {
+                  "name": "Irmischer, Johann Conrad",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-8f855179-6779-3eee-b66c-225f7883bdcb",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "117201154",
+              "id": "NORM-8f855179-6779-3eee-b66c-225f7883bdcb",
+              "identifier": [
+                {
+                  "text": "178",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Eduard Ippel",
+              "variantName": [
+                {
+                  "name": "Ippel, Eduard",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-8f855179-6779-3eee-b66c-225f7883bdcb",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "117201154",
+              "id": "NORM-8f855179-6779-3eee-b66c-225f7883bdcb",
+              "identifier": [
+                {
+                  "text": "178",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Eduard Ippel",
+              "variantName": [
+                {
+                  "name": "Ippel, Eduard",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-8f855179-6779-3eee-b66c-225f7883bdcb",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "117201154",
+              "id": "NORM-8f855179-6779-3eee-b66c-225f7883bdcb",
+              "identifier": [
+                {
+                  "text": "178",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Eduard Ippel",
+              "variantName": [
+                {
+                  "name": "Ippel, Eduard",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-8f855179-6779-3eee-b66c-225f7883bdcb",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "117201154",
+              "id": "NORM-8f855179-6779-3eee-b66c-225f7883bdcb",
+              "identifier": [
+                {
+                  "text": "178",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Eduard Ippel",
+              "variantName": [
+                {
+                  "name": "Ippel, Eduard",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-8f855179-6779-3eee-b66c-225f7883bdcb",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "117201154",
+              "id": "NORM-8f855179-6779-3eee-b66c-225f7883bdcb",
+              "identifier": [
+                {
+                  "text": "178",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Eduard Ippel",
+              "variantName": [
+                {
+                  "name": "Ippel, Eduard",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-8f855179-6779-3eee-b66c-225f7883bdcb",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "117201154",
+              "id": "NORM-8f855179-6779-3eee-b66c-225f7883bdcb",
+              "identifier": [
+                {
+                  "text": "178",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Eduard Ippel",
+              "variantName": [
+                {
+                  "name": "Ippel, Eduard",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-8f855179-6779-3eee-b66c-225f7883bdcb",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "117201154",
+              "id": "NORM-8f855179-6779-3eee-b66c-225f7883bdcb",
+              "identifier": [
+                {
+                  "text": "178",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Eduard Ippel",
+              "variantName": [
+                {
+                  "name": "Ippel, Eduard",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  },
+  {
+    "request": {
+      "json": {
+        "query": "query gndentity($id: String, $label: String) { findGNDEntityFacts(idOrName: $id, nodeLabel: $label) { gndId: gndIdentifier id identifier { text type url } preferredName variantName { name languageCode } }}",
+        "variables": {
+          "id": "NORM-045117b0-e0a1-3a24-ab97-65e79cbf113f",
+          "label": "Person"
+        },
+        "operationName": "gndentity"
+      },
+      "method": "post",
+      "uri": "/rest/graphql"
+    },
+    "response": {
+      "json": {
+        "data": {
+          "findGNDEntityFacts": [
+            {
+              "gndId": "1228086443",
+              "id": "NORM-045117b0-e0a1-3a24-ab97-65e79cbf113f",
+              "identifier": [
+                {
+                  "text": "180",
+                  "type": "",
+                  "url": ""
+                }
+              ],
+              "preferredName": "Ingeborg Krekler",
+              "variantName": [
+                {
+                  "name": "Krekler, Ingeborg",
+                  "languageCode": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  }
+]

@@ -1,0 +1,17 @@
+---
+eureka:
+  client:
+    enabled: false
+
+listen:
+  auto:
+    start:  false
+
+logging:
+  config: classpath:logback-test.xml
+
+nachweis:
+  id: localhost:56789
+
+solr:
+  core: hsp

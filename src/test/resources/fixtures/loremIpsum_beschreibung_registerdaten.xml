@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI version="5.0" xml:lang="de" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Beschreibung von Berlin, Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Ms. gall. fol. 131 (STUTZMANN, Dominique und Piotr TYLUS: Les manuscrits medievaux francais et occitans de la Preussische Staatsbibliothek et de la Staatsbibliothek zu Berlin - Preussischer Kulturbesitz. - Wiesbaden: Harrassowitz, 2007 (Staatsbibliothek Preussischer Kulturbesitz. Kataloge der Handschriftenabteilung: Reihe 1. Handschriften; Bd. 5))</title>
+            <respStmt>
+               <persName role="author" key="__UUID__">Katrin Sturm</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Elektronische Ausgabe nach TEI P5</edition>
+            <respStmt>
+               <resp>Diese Datei wurde unter Anwendung des MXML-to-TEI-P5-Stylesheets, welches an der Herzog August Bibliothek Wolfenbüttel im Rahmen des Projektes "Handschriftenportal" gepflegt wird aus einem am 26.08.2022 11:26:23:601 erstellten HIDA-DOC1-XML-Dokument erstellt.</resp>
+               <name type="org">Handschriftenportal</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+            </publisher>
+            <date type="primary" when="2007">2007</date>
+            <availability status="restricted">
+               <licence target="http://rightsstatements.org/vocab/InC/1.0/">
+                  <p>http://rightsstatements.org/vocab/InC/1.0/</p>
+               </licence>
+            </availability>
+            <idno type="hsk">643</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>STUTZMANN, Dominique und Piotr TYLUS: Les manuscrits medievaux francais et occitans de la Preussische Staatsbibliothek et de la Staatsbibliothek zu Berlin - Preussischer Kulturbesitz. - Wiesbaden: Harrassowitz, 2007 (Staatsbibliothek Preussischer Kulturbesitz. Kataloge der Handschriftenabteilung: Reihe 1. Handschriften; Bd. 5)</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when="2005-08-18">18.08.2005</date>
+         </creation>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date when="2020-07-30">30.07.2020</date>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc xml:id="MXML-31160011"
+                 xml:lang="de"
+                 type="hsp:description"
+                 subtype="medieval"
+                 status="extern">
+            <msIdentifier>
+               <settlement>Berlin</settlement>
+               <repository key="soz_30002258">Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</repository>
+               <collection>Ms. gall.</collection>
+               <collection type="baseShelfmarkGroup">Ms. gall. fol. 001-200</collection>
+               <idno>Ms. gall. fol. 131</idno>
+            </msIdentifier>
+            <head>
+               <index indexName="norm_title">
+                  <term type="title"/>
+               </index>
+               <title>Pierre Choque</title>
+               <note type="headline">Parchemin · 54 ff. · 26 x 19,5 · Ile-de-France · 1514</note>
+               <index indexName="norm_material">
+                  <term type="material"/>
+                  <term type="material_type"/>
+               </index>
+               <index indexName="norm_measure">
+                  <term type="measure"/>
+                  <term type="measure_noOfLeaves"/>
+               </index>
+               <index indexName="norm_dimensions">
+                  <term type="dimensions"/>
+                  <term type="height"/>
+                  <term type="width"/>
+                  <term type="depth"/>
+                  <term type="dimensions_typeOfInformation"/>
+               </index>
+               <index indexName="norm_format">
+                  <term type="format"/>
+                  <term type="format_typeOfInformation"/>
+               </index>
+               <index indexName="norm_origPlace">
+                  <term type="origPlace"/>
+                  <term type="origPlace_norm"/>
+               </index>
+               <index indexName="norm_origDate">
+                  <term type="origDate"/>
+                  <term type="origDate_notBefore"/>
+                  <term type="origDate_notAfter"/>
+                  <term type="origDate_type"/>
+               </index>
+               <index indexName="norm_textLang">
+                  <term type="textLang"/>
+                  <term type="textLang-ID"/>
+               </index>
+               <index indexName="norm_form">
+                  <term type="form"/>
+               </index>
+               <index indexName="norm_status">
+                  <term type="status"/>
+               </index>
+               <index indexName="norm_decoration">
+                  <term type="decoration"/>
+               </index>
+               <index indexName="norm_musicNotation">
+                  <term type="musicNotation"/>
+               </index>
+            </head>
+            <msContents>
+               <msItem n="MXML-31160013">
+                  <note type="text">1r page blanche (cf. supra).<lb/><lb/><ref target="#5706">1v-54r</ref> <ref target="#bezper[0].4100">PIERRE CHOQUE</ref> : <ref target="#bezwrk[0].6930gi">RECIT DES FUNERAILLES D'ANNE DE BRETAGNE</ref>, PRECEDE D'UNE COMPLAINTE SUR LA MORT DE CETTE PRINCESSE ET DE SA GENEALOGIE. (1v) Dédicace à<ref target="#bezper[1].4100"> [Philippe] duc de Cl</ref><ref target="#bezper[1].4100">è</ref><ref target="#bezper[1].4100">ves</ref>. <ref target="#5650[0].5666v">Noble duc de Cleyves yssu de royalle lignee, / Cousin du trescrestien et trespuissant roy</ref> … - … Le mien recit contenant verité / Je vous presente en toute humilité. (2r-3r) Complainte sur la mort d'Anne de Bretagne. › Commemoration et advertissement de la mort de treschristienne, treshaulte, trespuissante et tresexcellente princesse, ma tresredoubtee et souveraine dame, Madame Anne, deux foys royne de France, duchesse de Bretaigne, seulle heritiere d'icelle noble duché, contesse de Monltfort, de Richemont, d'Estampes et de Vertuz, enseignement de sa progeniture et complaincte que fait Bretaigne, son premier herault et l'un de ses roys d'armes ‹. <ref target="#5650[1].5666v">Noblesse, helaz, si je n'ay bouche ou langue / Pour faire icy suffizante harengue</ref> … - … N'ayant de vivre au monde plus d'envye, / En gemissant veulx consommer ma vie. (3r-11v) Généalogie d'Anne de Bretagne. › Cy aprez ensuit la genealogie de ladicte dame, faicte en termes rudes et rymé selon les hystoires anticques ‹. <ref target="#5650[2].5666v">Elle estoit noble et de hault priz, / Chascun louoit sa bien venue</ref> … - … Qui ont esté ne qui en present regne, / Car sa pareille il n'en est nulle. (12r-43v) Récit des funérailles d'Anne de Bretagne. <ref target="#5650[3].5666v">Le neufiesme jour de janvier, le dolant moys froict, plain de pleurs et lamentacions</ref> … - … Lors commença le roy d'armes, Bretaigne, a crier a haulte voix en ladicte salle disant : › La treschristienne royne et duchesse, / Nostre souveraine dame et maistresse, / est morte. Chascun se pourvoie ‹. (44r-53r) Récit de l'enterrement du coeur d'Anne de Bretagne. › Aultre commemoration et advertissement de l'enterrement du cueur de la treschristienne royne et duchesse ‹. <ref target="#5650[4].5666v">Aprez avoir veu et ou</ref><ref target="#5650[4].5666v">ÿ</ref><ref target="#5650[4].5666v"> l'honorable pompe fenneraille de l'obsecque et conduicte du corps de la noble royne</ref> … - … Mais les pleurs, criz et lamentacions auroient longue duree. Prions Dieu qu'il vueille avoir son ame laquelle il a cree. (53v-54r) Epitaphe d'Anne de Bretagne à Saint-Denis. <ref target="#5650[5].5666v">Le jeudi, premier jour de juing l'an mil v.c xiiij., moy estant a Saint-Denis en France</ref> … - … Si les prie et requier de faire a Dieu priere / Qu'il mecte ma povre ame en celeste lumiere / Amen.   Auteur aussi appelé 'Bretaigne'   ·   Ed. : L. Merlet et M. de Gombert, Récit des funérailles d'Anne de Bretagne, précédé d'une complainte sur la mort de cette princesse et de sa généalogie, Paris, 1858 (Genève, 1970). Certaines différences dans la division en unités narratives, mais en général, le ms. Gall. fol. 131 est assez proche de l'édition du texte   ·    Liste des manuscrits : voir O. Pächt et D. Thoss, op. cit., p. 16 ; à compléter par ce ms. et mss. <ref target="#5007[0].501k">Paris, BnF, fr. 18537</ref> ; <ref target="#5007[1].501k">fr. 23936</ref> ; <ref target="#5007[2].501k">nouv. acq. fr. 74</ref> ; exemplaire du roi de France, autrefois dans la collection Hamilton, non localisé, cf. Hamilton (1882), p. 5-6 n° 27 ; Hamilton (1889), p. 55-56, n° 56   ·   Mss. <ref target="#5007[3].501k">Paris, BnF fr. 5099</ref> et <ref target="#5007[4].501k">Paris, Petit Palais, coll. Dutuit, 665</ref>, contiennent une autre version du texte des 'Funérailles'   ·   L'œuvre de Pierre Choque comprend : [<ref target="#bezper[2].4100">ANDRE DE LA VIGNE</ref> : <ref target="#bezwrk[1].6930gi">É</ref><ref target="#bezwrk[1].6930gi">PITAPHES EN RONDEAUX DE LA REINE</ref>]. (19v) Rondeau, éd. p. 37-38, (20r) Rondeau et epitaphe, éd. p. 38-39, (20r-21r) Rondeau de l'esprit et du cueur du roy sur le trespas de la royne en forme de dyalogue, éd. p. 39-40, (21r-22r) La depleuracion ou chasteau de Blaiz [Blois] des lieux ou la royne frequentoit le plus souvent, éd. p. 41-42, (26r) Rondeau my a Sainct Saulveur, éd. p. 51-52, etc. Édition : A. de Montaiglon et J. de Rothschild, Recueil des poésies françoises des XVe et XVIe siècles, Paris, 1855, t. XII, p. 105-127.<lb/><lb/>54v page blanche (cf. supra).</note>
+                  <note type="other">
+                     <p>
+                        <!-- Autoren -->
+                        <index n="MXML-31160013_bezper[0]" indexName="Autorschaft Beobachtung">
+                           <term type="4100">
+                              <persName key="z001_104230762">Nulla consequat massa</persName>
+                           </term>
+                        </index>
+                        <index n="MXML-31160013_bezper[1]" indexName="Autorschaft Beobachtung">
+                           <term type="4100">
+                              <persName key="z001_119539926 ">quis enim. Donec</persName>
+                           </term>
+                           <term type="4475">Autor Beobachter</term>
+                        </index>
+
+                        <!-- Schreiber -->
+                        <index n="MXML-31160013_bezper[0]" indexName="Herstellung Beobachtung">
+                           <term type="4100">
+                              <persName key="z001_104230762">pede justo, fringilla</persName>
+                           </term>
+                           <term type="4475">Schreiber Beobachter</term>
+                        </index>
+                        <index n="MXML-31160013_bezper[1]" indexName="Beobachtung">
+                           <term type="4100">
+                              <persName key="z001_119539926 ">vel, aliquet nec,</persName>
+                           </term>
+                           <term type="4475">Schreiber Beobachter</term>
+                        </index>
+
+                        <!-- Erwähnt -->
+                        <index n="MXML-31160013_bezper[0]" indexName="Erwähnung Beobachtung">
+                           <term type="4100">
+                              <persName key="z001_104230762">vulputate eget, arcu.</persName>
+                           </term>
+                        </index>
+
+                        <!-- Vorbesitzer -->
+                        <index n="MXML-31160013_bezper[0]" indexName="Vorbesitz Beobachtung">
+                           <term type="4100">
+                              <persName key="z001_104230762">In enim justo,</persName>
+                           </term>
+                        </index>
+                        <index n="MXML-31160013_bezper[1]" indexName="Vorbesitz Beobachtung">
+                           <term type="4100">
+                              <persName key="z001_119539926 ">rhoncus ut, imperdiet</persName>
+                           </term>
+                           <term type="4475">Vorbesitzer Beobachter</term>
+                        </index>
+
+                        <!-- Übersetzer -->
+                        <index n="MXML-31160013_bezper[0]" indexName="Autorschaft Beobachtung">
+                           <term type="4100">
+                              <persName key="z001_104230762">a, venenatis vitae,</persName>
+                           </term>
+                           <term type="4475">Übersetzer Beobachter</term>
+                        </index>
+                        <index n="MXML-31160013_bezper[1]" indexName="Beobachtung">
+                           <term type="4100">
+                              <persName key="z001_119539926 ">justo. Nullam dictum</persName>
+                           </term>
+                           <term type="4475">Übersetzer Beobachter</term>
+                        </index>
+
+                        <!-- Illuminator -->
+                        <index n="MXML-31160013_bezper[0]" indexName="Herstellung Beobachtung">
+                           <term type="4100">
+                              <persName key="z001_104230762">felis eu pede</persName>
+                           </term>
+                           <term type="4475">Illuminator Beobachter</term>
+                        </index>
+                        <index n="MXML-31160013_bezper[1]" indexName="Beobachtung">
+                           <term type="4100">
+                              <persName key="z001_119539926 ">mollis pretium. Integer</persName>
+                           </term>
+                           <term type="4475">Illuminator Beobachter</term>
+                        </index>
+
+                        <!-- Buchbinder -->
+                        <index n="MXML-31160013_bezper[0]" indexName="Herstellung Beobachtung">
+                           <term type="4100">
+                              <persName key="z001_104230762">tincidunt. Cras dapibus.</persName>
+                           </term>
+                           <term type="4475">Buchbinder Beobachter</term>
+                        </index>
+                        <index n="MXML-31160013_bezper[1]" indexName="Beobachtung">
+                           <term type="4100">
+                              <persName key="z001_119539926 ">Vivamus elementum semper</persName>
+                           </term>
+                           <term type="4475">Buchbinder Beobachter</term>
+                        </index>
+
+                        <!-- Auftraggeber -->
+                        <index n="MXML-31160013_bezper[0]" indexName="Auftrag Beobachtung">
+                           <term type="4100">
+                              <persName key="z001_104230762">leo ligula, porttitor</persName>
+                           </term>
+                           <term type="4475">Buchbinder Beobachter</term>
+                        </index>
+                        <index n="MXML-31160013_bezper[1]" indexName="Herstellung Beobachtung">
+                           <term type="4100">
+                              <persName key="z001_119539926 ">eu, consequat vitae,</persName>
+                           </term>
+                           <term type="4475">Auftrag Beobachter</term>
+                        </index>
+
+                        <!-- Restaurator -->
+                        <index n="MXML-31160013_bezper[0]" indexName="Restaurierung Beobachtung">
+                           <term type="4100">
+                              <persName key="z001_104230762">nisi. Aenean vulputate</persName>
+                           </term>
+                           <term type="4475">Buchbinder Beobachter</term>
+                        </index>
+                        <index n="MXML-31160013_bezper[1]" indexName="Beobachtung">
+                           <term type="4100">
+                              <persName key="z001_119539926 ">eleifend tellus. Aenean</persName>
+                           </term>
+                           <term type="4475">Restaurator Beobachter</term>
+                        </index>
+
+                        <!-- Erwähnte Einrichtung -->
+                        <index n="MXML-31568877_bezsoz[0]" indexName="Erwähnung">
+                           <term type="4564">
+                              <settlement>Melrose</settlement>
+                           </term>
+                           <term type="4600">
+                              <orgName>Kloster Melrose</orgName>
+                           </term>
+                           <term type="4590">Kloster</term>
+                           <term type="4594">Zisterzienser</term>
+                           <term type="4996">
+                              <date>1136-1590</date>
+                           </term>
+                        </index>
+
+                        <!-- Vorbesitzende Einrichtung -->
+                        <index n="MXML-31568821_bezsoz[1]" indexName="Vorbesitz">
+                           <term type="4564">
+                              <settlement>Erfurt</settlement>
+                           </term>
+                           <term type="4600">
+                              <orgName key="MXML-31560012">Salvatorberg</orgName>
+                           </term>
+                           <term type="4590">Kloster</term>
+                           <term type="4594">Kartäuser</term>
+                           <term type="4596">Salvator</term>
+                        </index>
+
+                        <!-- Produzierende Einrichtung -->
+                        <index n="MXML-31588329_bezsoz[0]" indexName="Herstellung">
+                           <term type="4564">
+                              <settlement>Inzigkofen</settlement>
+                           </term>
+                           <term type="4600">
+                              <orgName>Augustinerchorfrauenstift Inzigkofen</orgName>
+                           </term>
+                        </index>
+
+                        <!-- Titel -->
+                        <index n="MXML-31600019_bezwrk[0]" indexName="Abschrift">
+                           <term type="6930">Nam eget dui.</term>
+                        </index>
+                        <index n="MXML-31600019_bezwrk[1]" indexName="Abschrift">
+                           <term type="6930gi">Etiam rhoncus. Maecenas</term>
+                        </index>
+
+                        <!-- Titel in Ms -->
+                        <index n="MXML-40191793_5650[0]" indexName="Rubrik">
+                           <term type="5686" xml:lang="la">massa. Cum</term>
+                        </index>
+                        <index n="MXML-40191793_5650[0]" indexName="Titel">
+                           <term type="5684" xml:lang="la">sociis natoque</term>
+                        </index>
+                        <index n="MXML-40191793_5650[0]" indexName="Titulus">
+                           <term type="5686" xml:lang="la">penatibus et</term>
+                        </index>
+                        <index n="MXML-40191793_5650[0]" indexName="Überschrift">
+                           <term type="5684" xml:lang="la">magnis dis</term>
+                        </index>
+
+                        <!-- Alternative Signatur -->
+
+                        <index n="MXML-31588329_bezsoz[0]" indexName="Verwaltung">
+                           <term type="4652">alt. Signatur</term>
+                        </index>
+
+                        <index n="MXML-31160013_5650[0]" indexName="Initium">
+                           <term type="5666v" xml:lang="unk">Noble duc de Cleyves yssu de royalle lignee | Cousin du trescrestien et trespuissant roy</term>
+                        </index>
+                        <index n="MXML-40191793_5650[0]" indexName="Explicit">
+                           <term type="5666l" xml:lang="la">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo</term>
+                        </index>
+                        <index n="MXML-40191793_5650[0]" indexName="Anapneo">
+                           <term type="5666l" xml:lang="la">ligula eget</term>
+                        </index>
+                        <index n="MXML-40191793_5650[0]" indexName="Kolophon">
+                           <term type="5666l" xml:lang="la">dolor. Aenean</term>
+                        </index>
+                        <index n="MXML-40191793_5650[0]" indexName="Incipit">
+                           <term type="5666l" xml:lang="la">parturient montes,</term>
+                        </index>
+                        <index indexName="Initium">
+                           <term type="1800" xml:lang="la">Stet clita kasd</term>
+                           <index>
+                              <term type="1961">0004recto</term>
+                           </index>
+                        </index>
+                     </p>
+                  </note>
+               </msItem>
+            </msContents>
+            <physDesc>
+               <p>Parchemin bien conservé, seulement quelques traces de moisissures · Cahiers : (IV + 1)9 + I11 + 2 IV27 + II31 + I33 + IV41 + I43 + IV51 + (II - 1)54. Le 1er feuillet, contenant la dédicace au destinataire (cf. infra), fut préparé postérieurement (écriture de la même main que le reste du texte, mais la teinte de l'encre est différente), et effectivement, il ne fait pas corps avec le quaternion initial, mais il est adjoint, sur onglet, au contre-plat (l'autre côté de l'onglet passe en dessous de la contre-garde). Manque 1 feuillet après le 51e · Traces des signatures originales des bifeuillets : iij, iiij (ff. 14-15) · Réglure à l'encre rouge diluée   ·   Justification (17,5 - 19) x (10 - 14) · 25 longues lignes · <ref target="#5704">Littera hybrida formata</ref>, d'unse seule main : écriture probablement du même atelier, peut-être de la même main, que le <ref target="#5007[0].501k">ms. Paris, Bibl. de l'Arsenal 5224</ref> (cf. CMD-F, t. I, pl. 157) contenant le même texte. Une seule main<lb/><lb/><ref target="#599a[0]">11 miniatures </ref>à pleine page (circa 19 x 12,5), sauf la 1e (circa, 9,5 x 15,5), correspondant au cycle des autres exemplaires (en particulier <ref target="#5007[1].501k">ms. Wien, </ref><ref target="#5007[1].501k">Ö</ref><ref target="#5007[1].501k">NB, S. n. 12733</ref>, cf. O. Pächt et D. Thoss, Die illuminierten Handschriften und Inkunabeln der Österreichischen Nationalbibliothek, Reihe I, Bd 2, Textband, p. 16-18 et fig. 1-5, Tafelband, Abb. 4-9. 1- (1v) Armes d’Anne de Bretagne, couronné (parti de France et de Bretagne, soutenu par un ange avec phylactère <hi rend="italic">Rogo pro te Anna</hi>, et par un lion avec phylactère <hi rend="italic">Libera eam de ore leonis</hi>, plus bas, une hermine portant au col un fanion aux armes de Bretagne, et au-dessous d’elle, une banderole avec la devise des ducs de Bretagne et de l’Ordre de l’hermine, fondé en 1381 par le duc de Bretagne Jean IV : <hi rend="italic">A MA VIE</hi>). 2- (12v) Dépouille mortelle d’Anne de Bretagne, couronnée et revêtue des habits royaux, dans une salle d’honneur, étendue sur un grand lit de parade, très haut, décoré de blasons d’Anne, sous un dais ; sceptre d’un côté du corps et main de justice de l’autre ; bougies autour du lit ; trois hérauts d’Anne et des religieux autour du lit, en prières. 3- (14v) Salle de deuil : le même lit, vide, avec couronne, sceptre et main de justice, et des religieux et trois personnages en habits aux armes d’Anne agenouillés, en train de prier, cierges. 4- (16v) Mise en bière d’Anne couronnée, par des religieux, dans une salle de douleur (cercueil décoré de blasons d’Anne, trois personnages en habits aux armes d’Anne agenouillés et en train de prier), au fond, un catafalque aux armes d’Anne, vide, sauf couronne, sceptre et main de justice, , avec des bougies, sous un dais, entouré de religieux et religieuses. 5- (19r) Signe apparu sur la ville de Suze et en plusieurs autres lieux, le jour de la mort d’Anne : sur un fond bleu, trois têtes de couleur claire, chacune entourée de soleil, l’une accompagnée d’une croix ; et trois mêmes têtes, de couleur grise, juste en bas. 6- (24v, 20 x 13,5) Chapelle ardente de Blois : intérieur d’église, catafalque vide avec couronne, sceptre et main de justice, chapelle et catafalque décorés de blasons d’Anne ; religieuses, un religieux et trois personnages en habits aux armes d’Anne en train de prier. 7- (36v) Transport du corps d’Anne à Paris : Anne couronnée, sceptre dans la main droite, main de justice dans la main gauche, en habits royaux, étendu sur un lit très haut, sous un dais avec ses armes, entouré de religieux, de trois personnages en habits aux armes de France et de quatre hauts personnages en habits d’hermine marchant autour du convoi (seigneurs de Bretagne, cf. la description de ce cortège dans le texte, 37r). 8- (38r, 20,5 x 12,5) Chapelle ardente de Paris : intérieur de Notre-Dame de Paris, sous la chapelle ardente, décorée de blasons d’Anne (corps représenté comme ci-dessus, déposé sur un catafalque, entouré d’un grand nombre de religieux et de quatre personnages en habits aux armes d’Anne (assis et en train de prier). 9- (40r, 22 x 13) Chapelle ardente : intérieur de la basilique Saint-Denis (corps d’Anne représenté comme ci-dessus, sous la chapelle ardente aux armes d’Anne, devant lui deux religieux agenouillés et trois personnages en habits aux armes d’Anne, en train de prier. 10- (48r, circa 24,5 x 14,5) Cérémonie pour le cœur dans l’église des Carmes de Nantes : sous la chapelle ardente, l’écrin du cœur d’Anne, entouré de trois religieux et de deux personnages en habits aux armes d’Anne ; en haut, écu héraldique d’Anne soutenu par un ange et un lion ; plus bas, hermine avec devise (cf. supra) ; chapelle décorée de nombreux écus héraldiques d’Anne, de derrière de l’un d’eux, placé plus haut, sortent deux bras, tenant l’un le sceptre et l’autre la main de justice. 11- (51v, circa 21 x 14) Écrin du cœur d’Anne de Bretagne, surmonté d’une couronne, en or sur un fond noir (inscription, voir O. Pächt et D. Thoss, op. cit. supra, Abb. 9 ; sur le modèle de l’original, auj. au Musée Dobrée à Nantes, voir S. de La Nicollière-Teijeiro, « Le Cœur de la reine Anne », La Bretagne artistique et littéraire, t. 2, 1881, p. 97-119. 145-161. 215-228 · Armoiries des villes qu’a traversées le cortège funèbre avec le corps d’Anne de Bretagne, peints dans les marges de gouttière : <ref target="#6560[0]">Blois</ref> (26v) ; Orléans (29r) ; <ref target="#6560[2]">Janville</ref> (29v) ; <ref target="#6560[3]">Étampes</ref>(30v) ; <ref target="#6560[4]">Paris</ref> (35v) ; <ref target="#6560[5]">Nantes</ref> (46r). Armoiries d’Anne de Bretagne, avec la devise de celle-ci (46r, 47v ; cf. supra). Armoiries d’Eudes de Chalo (30v, au-dessous des armoiries d’Etampes, écartelé aux I et IV d’argent à la croix de Jérusalem du même cantonné de quatre croisettes ; aux II et III d’azur à l’écusson d’or chargé d’une feuille de chêne de sinople, à la bordure de gueules ; d’après le texte, ces armes sont portées, à l’entrée du cortège à Étampes, par les descendants d’Hue Le Maire, seigneur de Chaillou, contemporain de Philippe le Bel ; ces armes sont auj. celles de la commune de <ref target="#6560[6]">Chalo-Saint-Mars</ref>, voir ms. Paris, BnF lat. 278 (17v. 61v) et M. N. Valois, « Le privilège de Chalo-Saint-Mard », Annuaire-bulletin de la Société de l’histoire de France, t. 23, 2e part., 1886, p. 185-226, particulièrement p. 204-205)   ·   Rubrication · Nombreuses <ref target="#599a[1]">initiales</ref> de couleur sur un fond d’or, agrémentées de dessins floraux, dans un encadrement de couleur. Initiales de 2 lignes en or sur un fond de couleur (1v, 15r-v), dans un encadrement, agrémentées de motifs divers en or (1v. 32r, 3 lignes ; 2r, 4 lignes). Pieds-de-mouche en or dans un encadrement de couleur, d’une ligne (parfois 2, et 3 en 45r).</p>
+            </physDesc>
+            <history>
+               <p>Après la mort d'<ref target="#bezper[2].4100">Anne de Bretagne</ref>,<ref target="#bezper[1].4100"> Louis XII </ref>fit faire plusieurs copies, contenant la relation des funérailles de son épouse, pour les distribuer aux familiers de la reine et aux principaux seigneurs de la cour. Le manuscrit fut donc exécuté en 1514, probablement en Île-de-France, dans le même atelier que ms. Paris, Bibl. de l'Arsenal, 5224 · Selon la dédicace (cf. infra), le destinataire en fut le duc de Clèves. Il s’agit vraisemblablement de <ref target="#bezper[0].4100">Philippe de Cl</ref><ref target="#bezper[0].4100">è</ref><ref target="#bezper[0].4100">ves</ref> (1459-1528), seigneur de Ravenstein, qui fut de l’entourage du roi de France, plutôt que de <ref target="#bezper[3].4100">Jean II, duc de Clèves</ref> · Ce ms. est acquis avant 1668 et fait partie du fonds ancien de la Kurfürstliche Bibliothek de Berlin : (1r) <ref target="#bezsoz[0].4652"><hi rend="italic">97</hi></ref> avec, plus bas, une inscription rayée et illisible (de la même main ?) et (contre-garde sup.) <hi rend="italic">B</hi> 24 ; cf. catalogues de Johannes Raue (Berlin, SBB-PK, ms. Cat. A 465, 137r, n° xcvii) et de M. Veyssière de La Croze (Berlin, SBB-PK, ms. Cat. A 466, item B 24) ; estampilles (1r. 54v).</p>
+            </history>
+            <additional>
+               <listBibl>
+                  <bibl>
+                     <ref target="#bezlit[0].8330">Lemm</ref>, p. 8. - <ref target="#bezlit[1].8330">Wegener</ref>, p. 143.
+                  </bibl>
+               </listBibl>
+            </additional>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

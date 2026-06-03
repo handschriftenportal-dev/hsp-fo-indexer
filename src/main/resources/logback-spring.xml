@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="FileAppender" class="ch.qos.logback.core.FileAppender">
+        <file>/data/log/hsp-fo-indexer/hsp-fo-indexer.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>
+                %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] [%thread] %-5level %logger{36} - %msg%n%throwable
+            </Pattern>
+        </encoder>
+    </appender>
+    <root level="INFO">
+        <appender-ref ref="FileAppender"/>
+    </root>
+</configuration>

@@ -1,0 +1,11 @@
+[
+{
+    "request": {
+        "method": "post",
+        "uri": "/rest/index"
+    },
+    "response": {
+        "status": 500
+    }
+}
+]

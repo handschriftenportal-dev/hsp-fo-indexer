@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:egXML="http://www.tei-c.org/ns/Examples" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/mss/current/cataloguing.xsd">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title>Kulturobjektdokument von Wolfenbüttel, Herzog August Bibliothek, Cod. Guelf. 36.23 Aug. 2°</title>
+            <respStmt>
+               <resp>Herausgegeben vom</resp>
+               <name type="org">Handschriftenportal</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Elektronische Ausgabe nach TEI P5</edition>
+            <respStmt>
+               <resp>Automatisch generierte Ausgabe</resp>
+               <orgName>Handschriftenportal</orgName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">Handschriftenportal</name>
+               <ptr target="http://www.handschriftenportal.de" />
+            </publisher>
+            <date when="2020-07-09" type="issued">2020-07-09</date>
+            <distributor>Handschriftenportal</distributor>
+            <availability status="free">
+               <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                  <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle
+              Nutzungsrechte.</p>
+                  <p>
+                     Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere
+              Lizenzen. Vgl. die
+                     <ref target="http://www.handschriftenportal.de">Copyright
+                Information</ref>
+                     des Handschriftenportals.
+                  </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="HSP-62bea7a7-4478-4da5-8958-ebd9abc898f2" xml:lang="de" type="hsp:object">
+               <msIdentifier>
+                  <settlement key="NORM-219c7047-2ffb-47a0-ae80-a0516a36cd54">Wolfenbüttel</settlement>
+                  <repository key="NORM-909a19c7-84f8-4151-8702-5cd384b2dd7e">Herzog August Bibliothek</repository>
+                  <idno>Cod. Guelf. 36.23 Aug. 2°</idno>
+               </msIdentifier>
+               <physDesc>
+                 <objectDesc>
+                   <supportDesc material="Pergament">
+                   <support>
+                     <material>Papyrus</material>
+                   </support>
+                   </supportDesc>
+                 </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <availability status="free">
+                        <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                           <p>Für das Kulturobjektdokument verzichtet das Handschriftenportal auf alle
+                    Nutzungsrechte.</p>
+                           <p>
+                              Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere
+                    Lizenzen. Vgl. die
+                              <ref target="http://www.handschriftenportal.de">Copyright
+                      Information</ref>
+                              des Handschriftenportals.
+                           </p>
+                        </licence>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p />
+      </body>
+   </text>
+</TEI>
